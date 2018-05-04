@@ -23,22 +23,8 @@ function addMouseListener() {
 }
 if (window.innerWidth >= 1200) addMouseListener();
 
-// function expandAndShowThumb(){
-// 	for (const link of links){
-// 		let linkPosition = link.getBoundingClientRect().y;
-// 		if (linkPosition <= 110){
-// 			link.style.color = 'red';
-// 		}
-// 	}
-// }
+const images = document.querySelectorAll('.project-thumbnail');
 
-
-
-// if (window.innerWidth <= 1200) addScrollListener();
-
-// function addScrollListener(){
-// 	window.addEventListener('scroll', highlightImages);
-// }
 window.addEventListener('scroll', highlightImages);
 function highlightImages() {
 	const {scrollTop} = document.documentElement;
@@ -50,17 +36,15 @@ function highlightImages() {
 	const imageIndex = Math.floor(scrollTop / imageHeight);
 	console.log('image index:', imageIndex);
 
-	const images = document.querySelectorAll('.project-thumbnail');
 	images[imageIndex].className = 'slideUp';
 	
 	const newElement = document.createElement('div');
-	newElement.innerHTML = images[imageIndex].outerHTML;
+	let imageHTML = images[imageIndex].outerHTML;
+	newElement.innerHTML = imageHTML;
 	const currentLink = links[imageIndex];
 	currentLink.appendChild(newElement);
-	
-	
-	
-	
-    
+	console.log(images.length);
+
 }
+
 
