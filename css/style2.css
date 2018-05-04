@@ -139,7 +139,7 @@ li{
 
 .info-contact{
   margin-top: 6rem;
-    }  
+    }
 
 /*---------------Hamburger menu---------------------*/
 
@@ -263,7 +263,10 @@ li{
     -ms-grid-column: 2/3;
     }
 
-
+.slideUp{
+    display: block;
+    width: 100%;
+}
 /*-------------------------MEDIA QUERIES-------------------------------------*/
 
 

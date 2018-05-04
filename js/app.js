@@ -23,31 +23,50 @@ function addMouseListener() {
 }
 if (window.innerWidth >= 1200) addMouseListener();
 
-function expandAndShowThumb(){
-	for (const link of links){
-		let linkPosition = link.getBoundingClientRect().y;
-		if (linkPosition <= 110){
-			link.style.color = 'red';
-		}
-	}
+// function expandAndShowThumb(){
+// 	for (const link of links){
+// 		let linkPosition = link.getBoundingClientRect().y;
+// 		if (linkPosition <= 110){
+// 			link.style.color = 'red';
+// 		}
+// 	}
+// }
+
+
+
+// if (window.innerWidth <= 1200) addScrollListener();
+
+// function addScrollListener(){
+// 	window.addEventListener('scroll', highlightImages);
+// }
+window.addEventListener('scroll', highlightImages);
+function highlightImages() {
+	const {scrollTop} = document.documentElement;
+	const imageHeight = 35;
+	
+	console.log('scrollTop:', scrollTop, 'imageheight:', imageHeight);
+
+	if (scrollTop % imageHeight > 0) return;
+	const imageIndex = Math.floor(scrollTop / imageHeight);
+	console.log('image index:', imageIndex);
+
+	const images = document.querySelectorAll('.project-thumbnail');
+	images[imageIndex].className = 'sildeUp';
+	
+	const newElement = document.createElement('div');
+	newElement.innerHTML = images[imageIndex].outerHTML;
+	const currentLink = links[imageIndex];
+	currentLink.appendChild(newElement);
+	
+	
+	
+	
+    
 }
 
-function addScrollListener(){
-	for (const link of links) {
+// function moveThumbnail(){
+// 	getTopLink();
+// 	getLinksThumbnail();
+// 	instertThumbnailIntoLinksHTML();
 
-		link.addEventListener('mouseover', toggleThumbVisibility);
-		link.addEventListener('mouseout', toggleThumbVisibility);
-
-	}
-
-}
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("myP").className = "test";
-    } else {
-        document.getElementById("myP").className = "";
-    }
-}
-if (window.innerWidth <= 1200) addScrollListener();
+// }
