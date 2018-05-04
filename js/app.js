@@ -51,7 +51,7 @@ function highlightImages() {
 	console.log('image index:', imageIndex);
 
 	const images = document.querySelectorAll('.project-thumbnail');
-	images[imageIndex].className = 'sildeUp';
+	images[imageIndex].className = 'slideUp';
 	
 	const newElement = document.createElement('div');
 	newElement.innerHTML = images[imageIndex].outerHTML;
@@ -64,9 +64,3 @@ function highlightImages() {
     
 }
 
-// function moveThumbnail(){
-// 	getTopLink();
-// 	getLinksThumbnail();
-// 	instertThumbnailIntoLinksHTML();
-
-// }
