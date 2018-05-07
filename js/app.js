@@ -36,7 +36,7 @@ function highlightImages() {
 	// if (scrollTop % imageHeight > 0) return;
 	// const imageIndex = Math.floor(scrollTop / imageHeight);
 	// console.log('image index:', imageIndex);
-	const imageHeight = 220;
+	const imageHeight = 330;
 	
 
 	var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
@@ -45,11 +45,20 @@ console.log('scrollbarposition', scrollBarPosition);
 const imageIndex = Math.floor(scrollBarPosition / imageHeight);
 	console.log('image index:', imageIndex);
 
-    // At specifiv position do what you want
-		if(scrollBarPosition > 60 && scrollBarPosition < 65
-				|| scrollBarPosition > 330 && scrollBarPosition < 335
-					|| scrollBarPosition > 600 && scrollBarPosition < 605
-					|| scrollBarPosition > 870 && scrollBarPosition < 875) {
+const firstPosition = 60;
+const scrollIncrementLow = 330;
+const scrollIncrementHigh = scrollIncrementLow + 5;
+
+if(
+	   scrollBarPosition > firstPosition && scrollBarPosition < firstPosition +5
+	|| scrollBarPosition > scrollIncrementLow && scrollBarPosition < scrollIncrementHigh
+	|| scrollBarPosition > scrollIncrementLow*2 && scrollBarPosition < scrollIncrementHigh*2
+	|| scrollBarPosition > scrollIncrementLow*3 && scrollBarPosition < scrollIncrementHigh*3
+	|| scrollBarPosition > scrollIncrementLow*4 && scrollBarPosition < scrollIncrementHigh*4
+	|| scrollBarPosition > scrollIncrementLow*6 && scrollBarPosition < scrollIncrementHigh*5
+	|| scrollBarPosition > scrollIncrementLow*7 && scrollBarPosition < scrollIncrementHigh*6
+	|| scrollBarPosition > scrollIncrementLow*8 && scrollBarPosition < scrollIncrementHigh*7
+	) {
 			console.log('hi');
 	images[imageIndex].className = 'slideUp';
 	listItems[imageIndex].className = 'new-list-item';
@@ -57,7 +66,10 @@ const imageIndex = Math.floor(scrollBarPosition / imageHeight);
 		}
 	
 }
-
+// if(scrollBarPosition > 60 && scrollBarPosition < 65
+// 	|| scrollBarPosition > 330 && scrollBarPosition < 335
+// 		|| scrollBarPosition > 600 && scrollBarPosition < 605
+// 		|| scrollBarPosition > 870 && scrollBarPosition < 875) 
 //----------option 3/////////
 
 window.onscroll=function(){changeMenu()};
