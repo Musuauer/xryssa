@@ -26,7 +26,11 @@ if (window.innerWidth >= 1200) addMouseListener();
 
 // ------------mobile version----------------------//
 
-window.addEventListener('scroll', highlightImages);
+if (window.innerWidth < 1200) {
+	window.addEventListener('scroll', highlightImages);
+
+}
+
 function highlightImages() {
 	// const {scrollTop} = document.documentElement;
 	// const imageHeight = 35;
