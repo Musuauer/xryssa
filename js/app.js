@@ -36,7 +36,7 @@ function highlightImages() {
 	// if (scrollTop % imageHeight > 0) return;
 	// const imageIndex = Math.floor(scrollTop / imageHeight);
 	// console.log('image index:', imageIndex);
-	const imageHeight = 330;
+	const imageHeight = 300;
 	
 
 	var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
@@ -55,9 +55,12 @@ if(
 	|| scrollBarPosition > scrollIncrementLow*2 && scrollBarPosition < scrollIncrementHigh*2
 	|| scrollBarPosition > scrollIncrementLow*3 && scrollBarPosition < scrollIncrementHigh*3
 	|| scrollBarPosition > scrollIncrementLow*4 && scrollBarPosition < scrollIncrementHigh*4
-	|| scrollBarPosition > scrollIncrementLow*6 && scrollBarPosition < scrollIncrementHigh*5
-	|| scrollBarPosition > scrollIncrementLow*7 && scrollBarPosition < scrollIncrementHigh*6
-	|| scrollBarPosition > scrollIncrementLow*8 && scrollBarPosition < scrollIncrementHigh*7
+	|| scrollBarPosition > scrollIncrementLow*5 && scrollBarPosition < scrollIncrementHigh*5
+	|| scrollBarPosition > scrollIncrementLow*6 && scrollBarPosition < scrollIncrementHigh*6
+	|| scrollBarPosition > scrollIncrementLow*7 && scrollBarPosition < scrollIncrementHigh*7
+	|| scrollBarPosition > scrollIncrementLow*8 && scrollBarPosition < scrollIncrementHigh*8
+	|| scrollBarPosition > scrollIncrementLow*9 && scrollBarPosition < scrollIncrementHigh*9
+	|| scrollBarPosition > scrollIncrementLow*10 && scrollBarPosition < scrollIncrementHigh*10
 	) {
 			console.log('hi');
 	images[imageIndex].className = 'slideUp';
