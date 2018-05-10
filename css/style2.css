@@ -430,6 +430,9 @@ position: absolute;
     .photo{
         margin-top: 1.4rem;
     }
+    .photo:first-of-type{
+        /* margin-top: 0; */
+    }
 
     /* -----------PROJECTS LIST PAGE------------------------- */
     .project-list{
