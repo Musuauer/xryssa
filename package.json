@@ -1,0 +1,26 @@
+{
+  "name": "chryssa-website3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Musuauer/xryssa.git"
+  },
+  "keywords": [
+    "chryssa"
+  ],
+  "author": "guillermo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Musuauer/xryssa/issues"
+  },
+  "homepage": "https://github.com/Musuauer/xryssa#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0"
+  }
+}

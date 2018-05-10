@@ -128,7 +128,56 @@ position: absolute;
 .info-contact{
   margin-top: 6rem;
     }
+/* ------- HOME------- */
+/* #fullscreen {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  #fullscreen img{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  } */
+  /* @media screen and (max-width: 550px) { 
+    body{
+        background: url(../img/From_My_West/chryssa_run2-011.jpg) no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+  }  */
 
+  /* #bg { position: fixed; top: 0; left: 0; }
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; } */
+
+/* .home-image {
+    min-height: 100%;
+    min-width: 1024px;
+      
+    width: 100%;
+    height: auto;
+      
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) { 
+    .home-image {
+      left: 50%;
+      margin-left: -512px;   
+    }
+  } */
+ 
 /*---------------Hamburger menu---------------------*/
 
 
@@ -226,17 +275,6 @@ position: absolute;
     
 }
 
-
-
-.home-image {
-    margin-top: 0;    
-        grid-row: 2/3; 
-    -ms-grid-row: 2/3; 
-    grid-column: 2/3;
-    -ms-grid-column: 2/3;
-    }
-
-
 /* -----------PROJECTS LIST PAGE------------------------- */
 .project-list{
     margin-top: 8rem;
@@ -258,9 +296,7 @@ position: absolute;
     height: auto;
     border-bottom: 1px solid black;
 }
-#first-project{
-    /* border-top: 1px solid black; */
-}
+
 .project-thumbnail{
     display: none;
     width: 100%;

@@ -26,20 +26,13 @@ if (window.innerWidth >= 1200) addMouseListener();
 
 // ------------mobile version----------------------//
 
-if (window.innerWidth < 1200) {
+if (window.innerWidth < 1000) {
 	window.addEventListener('scroll', highlightImages);
 
 }
 
 function highlightImages() {
-	// const {scrollTop} = document.documentElement;
-	// const imageHeight = 35;
-	
-	// console.log('scrollTop:', scrollTop, 'imageheight:', imageHeight);
 
-	// if (scrollTop % imageHeight > 0) return;
-	// const imageIndex = Math.floor(scrollTop / imageHeight);
-	// console.log('image index:', imageIndex);
 	const imageHeight = 300;
 	
 
@@ -55,16 +48,16 @@ const scrollIncrementHigh = scrollIncrementLow + 5;
 
 if(
 	   scrollBarPosition > firstPosition && scrollBarPosition < firstPosition +5
-	|| scrollBarPosition > scrollIncrementLow && scrollBarPosition < scrollIncrementHigh
-	|| scrollBarPosition > scrollIncrementLow*2 && scrollBarPosition < scrollIncrementHigh*2
-	|| scrollBarPosition > scrollIncrementLow*3 && scrollBarPosition < scrollIncrementHigh*3
-	|| scrollBarPosition > scrollIncrementLow*4 && scrollBarPosition < scrollIncrementHigh*4
-	|| scrollBarPosition > scrollIncrementLow*5 && scrollBarPosition < scrollIncrementHigh*5
-	|| scrollBarPosition > scrollIncrementLow*6 && scrollBarPosition < scrollIncrementHigh*6
-	|| scrollBarPosition > scrollIncrementLow*7 && scrollBarPosition < scrollIncrementHigh*7
-	|| scrollBarPosition > scrollIncrementLow*8 && scrollBarPosition < scrollIncrementHigh*8
-	|| scrollBarPosition > scrollIncrementLow*9 && scrollBarPosition < scrollIncrementHigh*9
-	|| scrollBarPosition > scrollIncrementLow*10 && scrollBarPosition < scrollIncrementHigh*10
+	|| scrollBarPosition > scrollIncrementLow 
+	|| scrollBarPosition > scrollIncrementLow*2 
+	|| scrollBarPosition > scrollIncrementLow*3 
+	|| scrollBarPosition > scrollIncrementLow*4 
+	|| scrollBarPosition > scrollIncrementLow*5 
+	|| scrollBarPosition > scrollIncrementLow*6 
+	|| scrollBarPosition > scrollIncrementLow*7 
+	|| scrollBarPosition > scrollIncrementLow*8 
+	|| scrollBarPosition > scrollIncrementLow*9 
+	|| scrollBarPosition > scrollIncrementLow*10
 	) {
 			console.log('hi');
 	images[imageIndex].className = 'slideUp';
@@ -73,26 +66,20 @@ if(
 		}
 	
 }
-// if(scrollBarPosition > 60 && scrollBarPosition < 65
-// 	|| scrollBarPosition > 330 && scrollBarPosition < 335
-// 		|| scrollBarPosition > 600 && scrollBarPosition < 605
-// 		|| scrollBarPosition > 870 && scrollBarPosition < 875) 
-//----------option 3/////////
 
-window.onscroll=function(){changeMenu()};
 
-function changeMenu()
-{
-    var scrollBarPosition = window.pageYOffset | document.body.scrollTop;
+// window.onscroll=function(){changeMenu();};
 
-    // At specifiv position do what you want 
-    if(scrollBarPosition == 0) {
-        document.getElementById('first-project').className = 'slideUp';
-    }
-    // else {
-    //     document.getElementById('first-project').innerHTML = "User is not on top of the page, position="  + scrollBarPosition;
-    // }
-}
+// function changeMenu()
+// {
+//     var scrollBarPosition = window.pageYOffset | document.body.scrollTop;
+
+//     // At specifiv position do what you want 
+//     if(scrollBarPosition == 0) {
+//         document.getElementById('first-project').className = 'slideUp';
+//     }
+   
+// }
 
 // ---------option 2/////////////
 
@@ -119,3 +106,5 @@ function changeMenu()
 // if (window.innerWidth < 1200) {
 // 	addScrollListener();
 // }
+
+
