@@ -68,7 +68,6 @@ const selectedImage = getRandomBestResImage(homeImages);
 const imageContainer = document.getElementById('background');
 
 function applyImage(selectedImage){
-	// imageContainer.style.background = `url(.${selectedImage}) no-repeat center center fixed`;
 	imageContainer.style.cssText = `background: url(.${selectedImage}) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; overflow: hidden;`;
 }
 
