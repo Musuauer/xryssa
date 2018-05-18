@@ -67,7 +67,7 @@ const getRandomBestResImage = images => {
 const selectedImage = getRandomBestResImage(homeImages);
 
 function applyImage(selectedImage){
-	document.getElementById('background').style.background = `url(.${selectedImage})`;
+	document.getElementById('background').style.background = `url(.${selectedImage}) no-repeat center center fixed`;
 }
 
 applyImage(selectedImage);
