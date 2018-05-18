@@ -252,7 +252,7 @@ position: absolute;
 .project-header{
     margin-top: 6.6rem;
 }
-.project-name, .project-info, .project-text{
+.project-name, .project-info, .project-text, .project-credit{
     padding-bottom: 1rem;
     padding-top: 0.3rem;
     border-bottom: 1px solid black;
