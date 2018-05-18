@@ -64,12 +64,10 @@ const getRandomBestResImage = images => {
 	return pickARamdomImage(images[bestSize])
 };
 
-const baseUrl = window.location.href;
-
 const selectedImage = getRandomBestResImage(homeImages);
 
 function applyImage(selectedImage){
-    document.getElementById('background').style.background = `url(${baseUrl + selectedImage})`;
+	document.getElementById('background').style.background = `url(.${selectedImage})`;
 }
 
 applyImage(selectedImage);
