@@ -35,11 +35,11 @@ const homeImages = {
 		'/img/homepage/right_and_wrong_06_WEB_2136r.jpg'
 	],
 	2880: [
-		'/img/homepage/from_my_west_03_WEB_2880rr.jpg',
-		'/img/homepage/i_have_never_17_WEB_2880rr.jpg',
-		'/img/homepage/i_cant_relax_02_WEB_2880rr.jpg',
-		'/img/homepage/please_turn_out_02_WEB_2880rr.jpg',
-		'/img/homepage/right_and_wrong_06_WEB_2880rr.jpg'
+		'/img/homepage/from_my_west_03_WEB_2880r.jpg',
+		'/img/homepage/i_have_never_17_WEB_2880r.jpg',
+		'/img/homepage/i_cant_relax_02_WEB_2880r.jpg',
+		'/img/homepage/please_turn_out_02_WEB_2880r.jpg',
+		'/img/homepage/right_and_wrong_06_WEB_2880r.jpg'
 	]
 };
 	
@@ -57,7 +57,7 @@ const getBestSizeToUse = (sizes, screenWidth) => {
 const pickARamdomImage = images => images[Math.floor(Math.random() * images.length)];
 
 const getRandomBestResImage = images => {
-	const availableSizes = getAvailableImageSizes(images)
+	const availableSizes = getAvailableImageSizes(images);
 	const screenWidth = window.innerWidth;
 	const bestSize = getBestSizeToUse(availableSizes, screenWidth);
 	
