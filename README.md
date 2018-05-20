@@ -9,7 +9,7 @@
 - J- mobile menu anpassen
 - J- mobile: abstände (projects2 und projekte seiten)
 - G- mobile: javascript zu spät
-- G- homepage bilder: js programieren und responsive machen
+<!-- - G- homepage bilder: js programieren und responsive machen -->
 - J- bilder abstände anpassen
 - J- project credits
 - J- impressum abstand

@@ -41,11 +41,11 @@ function highlightImages() {
 	const imageIndex = Math.floor(scrollBarPosition / imageHeight);
 	console.log('image index:', imageIndex);
 
-	const firstPosition = 60;
-	const scrollIncrement = 330;
+	const firstPosition = 40;
+	const scrollIncrement = 560;
 
 	if (
-		scrollBarPosition > firstPosition && scrollBarPosition < firstPosition + 5 ||
+		scrollBarPosition > firstPosition ||
 		scrollBarPosition > scrollIncrement ||
 		scrollBarPosition > scrollIncrement * 2 ||
 		scrollBarPosition > scrollIncrement * 3 ||
