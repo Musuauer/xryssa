@@ -45,13 +45,23 @@ function highlightImages() {
 	const scrollIncrement = 160;
 
 	if (
-		scrollBarPosition > firstPosition 
+		scrollBarPosition > firstPosition ||
+		scrollBarPosition > scrollIncrement ||
+		scrollBarPosition > scrollIncrement * 2 ||
+		scrollBarPosition > scrollIncrement * 3 ||
+		scrollBarPosition > scrollIncrement * 4 ||
+		scrollBarPosition > scrollIncrement * 5 ||
+		scrollBarPosition > scrollIncrement * 6 ||
+		scrollBarPosition > scrollIncrement * 7 ||
+		scrollBarPosition > scrollIncrement * 8 ||
+		scrollBarPosition > scrollIncrement * 9 ||
+		scrollBarPosition > scrollIncrement * 10
 	) {
+		alert('260');
 		console.log(scrollBarPosition, scrollIncrement);
 		console.log(imageIndex);
-		listItems[imageIndex].className = 'new-list-item';
 		images[imageIndex].className = 'slideUp';
-		
+		listItems[imageIndex].className = 'new-list-item';
 		links[imageIndex].style.border = 'none';
 	}
 }
