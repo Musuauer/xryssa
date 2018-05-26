@@ -33,7 +33,7 @@ if (window.innerWidth < 1000) {
 
 function highlightImages() {
 
-	const imageHeight = 260;
+	const imageHeight = 280;
 
 	var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 	
@@ -57,7 +57,7 @@ function highlightImages() {
 		scrollBarPosition > scrollIncrement * 9 ||
 		scrollBarPosition > scrollIncrement * 10
 	) {
-		alert('260');
+		
 		console.log(scrollBarPosition, scrollIncrement);
 		console.log(imageIndex);
 		images[imageIndex].className = 'slideUp';
@@ -66,3 +66,4 @@ function highlightImages() {
 	}
 }
 
+alert('280');
