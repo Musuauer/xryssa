@@ -42,7 +42,7 @@ function highlightImages() {
 	console.log('image index:', imageIndex);
 
 	const firstPosition = 40;
-	const scrollIncrement = 560;
+	const scrollIncrement = 360;
 
 	if (
 		scrollBarPosition > firstPosition ||
