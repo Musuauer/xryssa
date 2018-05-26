@@ -65,5 +65,3 @@ function highlightImages() {
 		links[imageIndex].style.border = 'none';
 	}
 }
-
-alert('280');
