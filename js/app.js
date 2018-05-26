@@ -57,49 +57,9 @@ function highlightImages() {
 		scrollBarPosition > scrollIncrement * 9 ||
 		scrollBarPosition > scrollIncrement * 10
 	) {
-		console.log('hi');
 		images[imageIndex].className = 'slideUp';
 		listItems[imageIndex].className = 'new-list-item';
 		links[imageIndex].style.border = 'none';
 	}
 }
 
-
-// window.onscroll=function(){changeMenu();};
-
-// function changeMenu()
-// {
-//     var scrollBarPosition = window.pageYOffset | document.body.scrollTop;
-
-//     // At specifiv position do what you want 
-//     if(scrollBarPosition == 0) {
-//         document.getElementById('first-project').className = 'slideUp';
-//     }
-
-// }
-
-// ---------option 2/////////////
-
-// what should we do when scrolling occurs
-// const revealThumb = function (event){
-// console.log(event.target);
-// 	const linkPosition = event.target.getBoundingClientRect().top;
-// 	console.log('linkposition', linkPosition);
-// 	if (linkPosition < 150 && linkPosition > 50){
-// 		toggleThumbVisibility(linkPosition);
-// 	}
-// };
-
-// grab elements as array, rather than as NodeList
-// var elements = document.querySelectorAll("...");
-// links = Array.prototype.slice.call(links);
-
-// and then make each element do something on scroll
-// const container = document.getElementById('wrapper');
-// container.addEventListener('scroll', revealThumb);
-
-
-
-// if (window.innerWidth < 1200) {
-// 	addScrollListener();
-// }
