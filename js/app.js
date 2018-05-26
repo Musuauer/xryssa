@@ -6,7 +6,7 @@ const listItems = document.querySelectorAll('.list-item');
 
 function toggleThumbVisibility(event) {
 	const project = event.target;
-	const projectImage = project.nextElementSibling;
+	const projectImage = project.nextElementSibling.firstElementChild;
 
 	const thumbIsVisible = projectImage.style.display === 'block';
 	projectImage.style.display = thumbIsVisible ? 'none' : 'block';
@@ -41,8 +41,8 @@ function highlightImages() {
 	const imageIndex = Math.floor(scrollBarPosition / imageHeight);
 	console.log('image index:', imageIndex);
 
-	const firstPosition = 40;
-	const scrollIncrement = 360;
+	const firstPosition = 10; //40
+	const scrollIncrement = 260;
 
 	if (
 		scrollBarPosition > firstPosition ||
@@ -57,6 +57,7 @@ function highlightImages() {
 		scrollBarPosition > scrollIncrement * 9 ||
 		scrollBarPosition > scrollIncrement * 10
 	) {
+		console.log(scrollBarPosition);
 		images[imageIndex].className = 'slideUp';
 		listItems[imageIndex].className = 'new-list-item';
 		links[imageIndex].style.border = 'none';

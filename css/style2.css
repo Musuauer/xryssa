@@ -338,6 +338,7 @@ hr{
 
 .list-item{
     height: 50px;
+    
 }
 .link{
     border-bottom: 1px solid black;
@@ -348,6 +349,7 @@ hr{
 .new-list-item{
     height: auto;
     border-bottom: 1px solid black;
+   
 }
 
 .project-thumbnail{
@@ -359,7 +361,6 @@ hr{
     display: block;
     width: 100%;
     margin-bottom: 1rem;
-    transition: 1s ease all;
 }
 .empty-space{
     width: 100%;
