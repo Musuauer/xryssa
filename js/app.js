@@ -33,7 +33,7 @@ if (window.innerWidth < 1000) {
 
 function highlightImages() {
 
-	const imageHeight = 244;
+	const imageHeight = 260;
 
 	var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 	
@@ -49,8 +49,9 @@ function highlightImages() {
 	) {
 		console.log(scrollBarPosition, scrollIncrement);
 		console.log(imageIndex);
-		images[imageIndex].className = 'slideUp';
 		listItems[imageIndex].className = 'new-list-item';
+		images[imageIndex].className = 'slideUp';
+		
 		links[imageIndex].style.border = 'none';
 	}
 }
