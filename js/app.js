@@ -33,31 +33,22 @@ if (window.innerWidth < 1000) {
 
 function highlightImages() {
 
-	const imageHeight = 300;
+	const imageHeight = 244;
 
 	var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-	console.log('scrollbarposition', scrollBarPosition);
+	
 
 	const imageIndex = Math.floor(scrollBarPosition / imageHeight);
-	console.log('image index:', imageIndex);
+	
 
 	const firstPosition = 10; //40
-	const scrollIncrement = 260;
+	const scrollIncrement = 160;
 
 	if (
-		scrollBarPosition > firstPosition ||
-		scrollBarPosition > scrollIncrement ||
-		scrollBarPosition > scrollIncrement * 2 ||
-		scrollBarPosition > scrollIncrement * 3 ||
-		scrollBarPosition > scrollIncrement * 4 ||
-		scrollBarPosition > scrollIncrement * 5 ||
-		scrollBarPosition > scrollIncrement * 6 ||
-		scrollBarPosition > scrollIncrement * 7 ||
-		scrollBarPosition > scrollIncrement * 8 ||
-		scrollBarPosition > scrollIncrement * 9 ||
-		scrollBarPosition > scrollIncrement * 10
+		scrollBarPosition > firstPosition 
 	) {
-		console.log(scrollBarPosition);
+		console.log(scrollBarPosition, scrollIncrement);
+		console.log(imageIndex);
 		images[imageIndex].className = 'slideUp';
 		listItems[imageIndex].className = 'new-list-item';
 		links[imageIndex].style.border = 'none';
