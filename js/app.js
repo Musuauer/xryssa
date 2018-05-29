@@ -39,7 +39,7 @@ function highlightImages() {
 
 	const imageIndex = Math.floor(scrollBarPosition / imageHeight);
 
-	const firstPosition = 10; //40
+	const firstPosition = 40; //40
 	const scrollIncrement = 160;
 
 	if (
