@@ -82,6 +82,7 @@ hr{
     margin: 0 auto;
     position: relative;
     grid-column-gap: 1rem;
+    margin-top: 8rem;
 }
 .name{
 /* position: absolute; */
@@ -218,11 +219,6 @@ hr{
     
     
 }
-.menu-btn div{
-    /* display: inline-block; */
-   
-    
-}
 
 .menu-btn span {
 	display: block;
@@ -236,7 +232,7 @@ hr{
 }
 
 .menu-content{
-    margin-top: 2.2rem;
+    margin-top: 7rem;
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -279,6 +275,11 @@ hr{
     position: fixed;
     bottom: 1.2rem;
     left: 0.6rem;
+
+}
+.de h4{
+    font-size: 1.1rem;
+
 }
 
 .info{

@@ -36,10 +36,8 @@ function highlightImages() {
 	const imageHeight = 280;
 
 	var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-	
 
 	const imageIndex = Math.floor(scrollBarPosition / imageHeight);
-	
 
 	const firstPosition = 10; //40
 	const scrollIncrement = 160;
