@@ -234,9 +234,8 @@ hr{
 .menu-content{
     margin-top: 7rem;
     position: relative;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
-    
 }
  
 .responsive-menu{
@@ -294,10 +293,6 @@ hr{
 
 
 /*-----------------------PROJECT PAGE---------------------------------*/
-.project-header{
-    /* margin-top: 6.6rem; */
-}
-
 .project{
     margin-top: 3rem;
 }
@@ -309,8 +304,6 @@ hr{
 }
 
 .photos-container{
-    /* padding-bottom: 1rem;
-    padding-top: 1rem; */
     margin-top: 1.4rem;
 }
 .extras-container{
@@ -318,7 +311,6 @@ hr{
     padding-top: 1rem;
 }
 .photo img{
-/*    margin-top: .5rem;*/
     width: 100%;
 }
 .extra img{
@@ -477,9 +469,9 @@ hr{
 
     
     .photos-container{
-    margin-top: 0rem;
-    grid-row: 2/3; 
-    -ms-grid-row: 2/3; 
+    margin-top: 1rem;
+    grid-row: 2/3;
+    -ms-grid-row: 2/3;
     grid-column: 2/3;
     -ms-grid-column: 2/3;
 }

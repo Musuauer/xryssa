@@ -18,3 +18,8 @@
 - G- Portfolio PDF
 - x- TEXTS PDF
 - x- credits für jede Projekt
+
+
+- contact: email zuerst
+- Director of Photography => photos
+-credits: italics
