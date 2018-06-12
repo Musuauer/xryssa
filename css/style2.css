@@ -16,11 +16,7 @@ body, html{
 
 }
 html,body{ margin:0; padding:0; height:100%; width:100%; }
-/* #wrapper{
-  height:100vh;
-  width:100%;
-  overflow: auto; 
-} */
+
 
 h1, h2, h3, h4, p, a{
     font-family: 'Open Sans', sans-serif;
@@ -38,8 +34,7 @@ h2{
 }
 h3{
     font-size: 1.1rem;
-    /* padding: .5rem 0; */
-    /* line-height: 3rem; */
+
 
 }
 h4{
@@ -55,8 +50,6 @@ a{
     display: block;
     color: black;
     text-decoration: none;
-/*    font-size: 1.0rem;*/
-/*    font-family: 'Open Sans', sans-serif;*/
     position: relative;
 }
 .link {
@@ -84,40 +77,14 @@ hr{
     grid-column-gap: 1rem;
     margin-top: 8rem;
 }
-.name{
-/* position: absolute; */
-    /* right: 0; */
-    /* display: inline-block; */
-    position: fixed;
-    left: 0.6rem;
-    
-}
 .menu{
     display: none;
 }
 
 .menu-item{
     display: flex;
-    /* align-content: center;
-     line-height: 50px;
-    height: 50px; */
-/*   width: 100%;*/
-/*    border-bottom: 1px solid black;*/
     
 }
-
-/* .list-item{
-    position: static;
-    width: 100%;
-    height: auto;
-    line-height: 3rem; 
-    vertical-align: middle;
-    display: grid;
-    line-height: 2rem;
-} */
-
-
-
 .header{
     background-color: white;
     width: 95%;
@@ -126,81 +93,29 @@ hr{
     top: 0;
     margin: 0 auto;
     z-index: 99;
-    /* border-bottom: 1px solid black; */
-    
+    display: flex;
+    justify-content: space-between;
     
 }
-
+.name{
+    display: inline-block;
+}
 .current {
-    /* border-bottom: 1px solid black;
-    line-height: 50px;
-    height: 50px; */
     font-style: oblique;
 }
 
 
-/* ------- HOME------- */
-/* #fullscreen {
-    position: fixed; 
-    top: -50%; 
-    left: -50%; 
-    width: 200%; 
-    height: 200%;
-  }
-  #fullscreen img{
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
-    margin: auto; 
-    min-width: 50%;
-    min-height: 50%;
-  } */
-  /* @media screen and (max-width: 550px) { 
-    body{
-        background: url(../img/From_My_West/chryssa_run2-011.jpg) no-repeat center center fixed;
-        background-size: cover;
-        height: 100%;
-        overflow: hidden;
-    }
-  }  */
 
-  /* #bg { position: fixed; top: 0; left: 0; }
-.bgwidth { width: 100%; }
-.bgheight { height: 100%; } */
-
-/* .home-image {
-    min-height: 100%;
-    min-width: 1024px;
-      
-    width: 100%;
-    height: auto;
-      
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  
-  @media screen and (max-width: 1024px) { 
-    .home-image {
-      left: 50%;
-      margin-left: -512px;   
-    }
-  } */
- 
 /*---------------Hamburger menu---------------------*/
 
 
 .mobile-nav{
     margin-top: 0rem;
-    width: 100%;
+    /* width: 100%; */
     position: fixed;
-    height: 50px;  
+    height: 50px;
     left: 0.6rem;
-   
-   
-    
+    display: inline-block;
 }
 
 
@@ -208,10 +123,6 @@ hr{
 	font-size: 18px;
 	font-weight: 200;
 	z-index: 9999;
-    /* padding-bottom: .5rem; */
-    /* padding-top: 2px; */
-    /* padding-left: 2px; */
-    /* display: inline-block; */
     right: 0.6rem;
     position: fixed;
     margin-top: 0.9rem;
@@ -239,14 +150,12 @@ hr{
 }
  
 .responsive-menu{
-    position: relative;
-	display: none;
+    /* position: relative; */
+    display: none;
     width: 100%;
     background-color: white;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    
-    
 }
 
 .expand {
@@ -257,7 +166,6 @@ hr{
    display: none;
 }
 .close-btn:before {
-    /* position:relative; */
     position: absolute;
     display: inline-block;
     right: 1.2rem;
