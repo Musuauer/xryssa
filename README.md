@@ -3,7 +3,7 @@
 
 ## ToDo
 
-- J- projekte bilder 
+- J- projekte bilder
 - G- 3 videos
 - J- project credits
 - _- impressum content checken
