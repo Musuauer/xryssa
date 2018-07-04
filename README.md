@@ -3,14 +3,9 @@
 
 ## ToDo
 
-- J- projekte bilder
-- G- 3 videos
-- J- project credits
-- _- impressum content checken
-- J- CV actualizieren
 - G- Portfolio PDF
-- x- TEXTS PDF
-- x- credits für jede Projekt
-
-- Director of Photography => photos
-- credits: italics
+- G- by reinventing only PHOTOS?? hi-res?
+- G- I Am No Longer Myself. I Am So Much Yours. PHOTOS??
+- J- Länder raus? nur die Stadt?
+- J- info angaben Reihenfolge
+- J- impressum 

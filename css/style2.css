@@ -103,7 +103,9 @@ hr{
 .current {
     font-style: oblique;
 }
-
+.contact p a{
+    display: inline-block;
+}
 
 
 /*---------------Hamburger menu---------------------*/
@@ -213,15 +215,13 @@ hr{
 
 .photos-container{
     margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
 }
-.extras-container{
-    padding-bottom: 2rem;
-    padding-top: 1rem;
-}
+
 .photo img{
     width: 100%;
 }
-.extra img{
+.extra{
     width: 66%;
     
 }
@@ -347,10 +347,8 @@ hr{
     
     .de{
     position: fixed;
-    bottom: 1.4rem;
+    /* bottom: 1.4rem; */
     left: 2rem;
-
-
 }
 
     .thumbnails{
@@ -384,14 +382,7 @@ hr{
     -ms-grid-column: 2/3;
 }
     
-    .extras-container{
-    padding-bottom: 2rem;
-    padding-top: 1rem;
-          grid-row: 3/4; 
-    -ms-grid-row: 3/4; 
-    grid-column: 2/3;
-    -ms-grid-column: 2/3;
-}
+
     .photo{
         /* margin-top: 1.4rem; */
         padding-bottom: 3rem;
