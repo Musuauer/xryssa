@@ -99,6 +99,7 @@ hr{
 }
 .name{
     display: inline-block;
+    z-index:;
 }
 .current {
     font-style: oblique;
@@ -113,10 +114,9 @@ hr{
 
 .mobile-nav{
     margin-top: 0rem;
-    /* width: 100%; */
+    width: 100%;
     position: fixed;
     height: 50px;
-    left: 0.6rem;
     display: inline-block;
 }
 
@@ -145,19 +145,16 @@ hr{
 }
 
 .menu-content{
-    margin-top: 7rem;
+    margin-top: 8rem;
     position: relative;
-    /* width: 100vw; */
     height: 100vh;
 }
  
 .responsive-menu{
-    /* position: relative; */
     display: none;
     width: 100%;
     background-color: white;
     padding-bottom: 1rem;
-    padding-top: 1rem;
 }
 
 .expand {
@@ -221,8 +218,11 @@ hr{
 .photo img{
     width: 100%;
 }
+.extras-container{
+    margin-top: 1rem;
+}
 .extra{
-    width: 66%;
+    width: 100%;
     
 }
 
@@ -384,11 +384,15 @@ hr{
     
 
     .photo{
-        /* margin-top: 1.4rem; */
         padding-bottom: 3rem;
     }
     .photo:first-of-type{
         margin-top: 0;
+    }
+
+    .extra{
+        width: 66%;
+        
     }
 
     /* -----------PROJECTS LIST PAGE------------------------- */
