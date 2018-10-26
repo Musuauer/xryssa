@@ -1,7 +1,8 @@
 ---
+templateKey: "project"
 path: "/By-Reinventing-Only"
-order: "8"
-thumbnail: "/img/by_reinventing_03_WEB_640.jpg"
+order: "08"
+thumbnail: "img/by_reinventing_03_WEB_640.jpg"
 title: "By Reinventing Only"
 media: "Public intervention"
 year: "2015"

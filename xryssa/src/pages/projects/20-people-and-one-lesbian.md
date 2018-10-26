@@ -1,7 +1,8 @@
 ---
+templateKey: "project"
 path: "/20-People-And-One-Lesbian"
-order: "2"
-thumbnail: "/img/20_people_02_WEB_640.jpg.jpg"
+order: "02"
+thumbnail: "/img/20_people_02_WEB_640.jpg"
 title: "20 People And One Lesbian"
 media: "Performance"
 year: "2011"

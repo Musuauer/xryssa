@@ -1,6 +1,7 @@
 ---
+templateKey: "project"
 path: "/Right-And-Wrong-Dreams"
-order: "9"
+order: "09"
 thumbnail: "/img/right_and_wrong_06_WEB_640.jpg"
 title: "Right And Wrong Dreams"
 media: "Performance, printed hats"

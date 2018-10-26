@@ -1,4 +1,5 @@
 ---
+templateKey: "project"
 path: "/You-Know-You-Are-Right"
 order: "16"
 thumbnail: "/img/you_know_52_WEB_640.jpg"

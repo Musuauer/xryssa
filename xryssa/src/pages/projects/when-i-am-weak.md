@@ -1,6 +1,7 @@
 ---
+templateKey: "project"
 path: "/When-I-Am-Weak-You-Are-Strong"
-order: "3"
+order: "03"
 thumbnail: "/img/when_im_weak_29_WEB_640.jpg"
 title: "When I Am Weak You Are Strong"
 media: "Public intervention"

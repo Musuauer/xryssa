@@ -1,6 +1,7 @@
 ---
+templateKey: "project"
 path: "/The-Good-Times-Are-Coming"
-order: "4"
+order: "04"
 thumbnail: "/img/the_good_times_24_WEB_640.jpg"
 title: "The Good Times Are Coming"
 media: "Performance, sound installation"

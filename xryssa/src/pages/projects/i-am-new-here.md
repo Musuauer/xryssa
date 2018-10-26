@@ -1,6 +1,7 @@
 ---
+templateKey: "project"
 path: "/I-am-Νew-Ηere"
-order: "7"
+order: "07"
 thumbnail: "/img/im_new_11_WEB_640.jpg"
 title: "I am Νew Ηere"
 media: "Public intervention"

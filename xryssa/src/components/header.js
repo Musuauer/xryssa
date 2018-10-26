@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 
 const Header = ({ siteTitle }) => (
 
-  <div class='header'>
-    <div class='name'>
+  <div className='header'>
+    <div className='name'>
       <h1>
         <Link
           to='/'
@@ -13,9 +13,9 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-    <div class='mobile-nav'>
+    <div className='mobile-nav'>
 
-      <div class='menu-btn' id='menu-btn'>
+      <div className='menu-btn' id='menu-btn'>
         <div>
           <span />
           <span />
@@ -24,15 +24,15 @@ const Header = ({ siteTitle }) => (
 
       </div>
 
-      <div class='responsive-menu close-btn'>
-        <div class='menu-content'>
-          <div class='menu-item current'>
+      <div className='responsive-menu close-btn'>
+        <div className='menu-content'>
+          <div className='menu-item current'>
             <h2>
                       Projects
             </h2>
           </div>
 
-          <div class='menu-item'>
+          <div className='menu-item'>
             <h2>
               <Link
                 to='/info'
@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => (
             </h2>
           </div>
 
-          <div class='menu-item'>
+          <div className='menu-item'>
             <h2>
               <Link
                 to='/contact'
@@ -53,11 +53,11 @@ const Header = ({ siteTitle }) => (
           </div>
           <br />
           <br />
-          <div class='de'>
+          <div className='de'>
 
             <h4>
               {/* ---insert Deutsch Link to */}
-              <a href=''>de</a>
+              {/* <a href=''>de</a> */}
             </h4>
           </div>
         </div>

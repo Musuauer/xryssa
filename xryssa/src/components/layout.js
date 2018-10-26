@@ -1,10 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import Sidebar from '../components/Sidebar'
+
 import { StaticQuery, graphql } from 'gatsby'
 
-import Header from '../components/header'
-import './layout.css'
+import Header from './Header'
+import '../pages/style.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -18,7 +20,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <React.Fragment>
+      <div className='grid'>
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
@@ -29,7 +31,10 @@ const Layout = ({ children }) => (
           <html lang='en' />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-      </React.Fragment>
+        <Sidebar />
+        {children}
+      </div>
+
     )}
   />
 )

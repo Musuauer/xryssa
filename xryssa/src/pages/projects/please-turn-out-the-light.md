@@ -1,4 +1,5 @@
 ---
+templateKey: "project"
 path: "/Please-Turn-Out-The-Light"
 order: "14"
 thumbnail: "/img/please_turn_out_02_WEB_640.jpg"
