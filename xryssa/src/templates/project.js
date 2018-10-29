@@ -38,7 +38,7 @@ export const ProjectTemplate = ({
         </div>
 
         <div className='project-credit'>
-          <p>Performers: {performers}</p>
+          {performers && <p>Performers: {performers}</p>}
           <p>{documentation}</p>
           <p>{extra1}</p>
           <p>{extra2}</p>
