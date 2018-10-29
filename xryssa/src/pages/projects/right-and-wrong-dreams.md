@@ -15,12 +15,11 @@ extra1: ""
 extra2: ""
 
 ---
-
-![Right And Wrong Dreams] (/img/right_and_wrong_01_WEB_2880r.jpg)
-![Right And Wrong Dreams] (/img/right_and_wrong_02_WEB_2880r.jpg)
-![Right And Wrong Dreams] (/img/right_and_wrong_03_WEB_2880r.jpg)
-![Right And Wrong Dreams] (/img/right_and_wrong_04_WEB_2880r.jpg)
-![Right And Wrong Dreams] (/img/right_and_wrong_05_WEB_2880r.jpg)
-![Right And Wrong Dreams] (/img/right_and_wrong_06_WEB_2880r.jpg)
+![Right And Wrong Dreams](/img/right_and_wrong_01_WEB_2880r.jpg)
+![Right And Wrong Dreams](/img/right_and_wrong_02_WEB_2880r.jpg)
+![Right And Wrong Dreams](/img/right_and_wrong_03_WEB_2880r.jpg)
+![Right And Wrong Dreams](/img/right_and_wrong_04_WEB_2880r.jpg)
+![Right And Wrong Dreams](/img/right_and_wrong_05_WEB_2880r.jpg)
+![Right And Wrong Dreams](/img/right_and_wrong_06_WEB_2880r.jpg)
 
 

@@ -13,11 +13,9 @@ performers: "Lee Teperberg-Kannay, Schmuel Zeltser"
 documentation: "Photos: Nadav Ariel"
 extra1: ""
 extra2: ""
-
 ---
-
-![By Reinventing Only] (/img/by_reinventing_05_WEB_2880r.jpg)
-![By Reinventing Only] (/img/by_reinventing_03_WEB_2880r.jpg)
-![By Reinventing Only] (/img/by_reinventing_04_WEB_2880r.jpg)
+![By Reinventing Only](/img/by_reinventing_05_WEB_2880r.jpg)
+![By Reinventing Only](/img/by_reinventing_03_WEB_2880r.jpg)
+![By Reinventing Only](/img/by_reinventing_04_WEB_2880r.jpg)
 
 

@@ -27,7 +27,7 @@ export default class IndexPage extends React.Component {
                   {post.frontmatter.title}
                 </Link>
                 <Link to={post.frontmatter.path}>
-                  <img src={post.frontmatter.thumbnail} className='project-thumbnail' />
+                  <img src={post.frontmatter.thumbnail} className='project-thumbnail' alt='thumbnail' />
                 </Link>
 
               </div>

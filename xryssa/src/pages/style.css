@@ -35,6 +35,7 @@ h4{
 
 p{
     font-size: .85rem;
+    margin: 0;
 }
 
 
@@ -194,13 +195,16 @@ hr{
     padding-top: 1rem;
     border-bottom: 1px solid black;
 }
+.project-info{
+    padding-top: 0;
+}
 
 .photos-container{
     margin-top: 1.4rem;
     margin-bottom: 1.4rem;
 }
 
-.photo img{
+.photos-container img{
     width: 100%;
 }
 .extras-container{
@@ -211,7 +215,7 @@ hr{
     width: 100%;
 }
 
-.photo{
+.photos-container img{
     padding-bottom: 0.5rem;
 }
 
@@ -351,10 +355,10 @@ hr{
     -ms-grid-column: 2/3;
 }
 
-    .photo{
+    .photos-container img{
         padding-bottom: 3rem;
     }
-    .photo:first-of-type{
+    .photos-container img:first-of-type{
         margin-top: 0;
     }
 

@@ -15,8 +15,7 @@ extra1: ""
 extra2: ""
 
 ---
-
-![On A Runway] (/img/on_a_runway_21_WEB_2880r.jpg)
+![On A Runway](/img/on_a_runway_21_WEB_2880r.jpg)
 
 <div class="extras-container">
 <p>Video loop 1:18 min</p>

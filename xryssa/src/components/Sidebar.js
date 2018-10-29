@@ -2,23 +2,43 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const Sidebar = () => {
-  const pages = ['Projects', 'Info', 'Contact']
   return (
     <div className='menu menu-project'>
-      {pages.map(page =>
-        (<div className='menu-item'
-          key={page}>
-          <h2>
-            <Link
-              to={`/${page}`}
-              activeClassName='current'
-            >
-              {page}
-            </Link>
-          </h2>
-        </div>
-        )
-      )}
+      <div className='menu-item'
+      >
+        <h2>
+          <Link
+            to='/'
+            activeClassName='current'
+          >
+            Projects
+          </Link>
+        </h2>
+      </div>
+
+      <div className='menu-item'
+      >
+        <h2>
+          <Link
+            to='/info'
+            activeClassName='current'
+          >
+            Info
+          </Link>
+        </h2>
+      </div>
+
+      <div className='menu-item'
+      >
+        <h2>
+          <Link
+            to='/contact'
+            activeClassName='current'
+          >
+            Contact
+          </Link>
+        </h2>
+      </div>
 
       <div className='de'>
 

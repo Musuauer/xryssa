@@ -15,7 +15,6 @@ extra1: ""
 extra2: ""
 
 ---
-
-![You Know, You Are Right] (/img/you_know_52_WEB_2880r.jpg)
-![You Know, You Are Right] (/img/you_know_53_WEB_2880r.jpg)
+![You Know, You Are Right](/img/you_know_52_WEB_2880r.jpg)
+![You Know, You Are Right](/img/you_know_53_WEB_2880r.jpg)
 

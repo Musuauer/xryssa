@@ -16,11 +16,10 @@ extra1: "Director of Photography: Vassiliea Stylianidou"
 extra2: ""
 
 ---
-
-![20 People And One Lesbian] (/img/20_people_01_WEB_2880r.jpg)
-![20 People And One Lesbian] (/img/20_people_05_WEB_2880r.jpg)
-![20 People And One Lesbian] (/img/20_people_02_WEB_2880r.jpg)
-![20 People And One Lesbian] (/img/20_people_03_WEB_2880r.jpg)
+![20 People And One Lesbian](/img/20_people_01_WEB_2880r.jpg)
+![20 People And One Lesbian](/img/20_people_05_WEB_2880r.jpg)
+![20 People And One Lesbian](/img/20_people_02_WEB_2880r.jpg)
+![20 People And One Lesbian](/img/20_people_03_WEB_2880r.jpg)
 
 <div class="extras-container">
 <div class="extra"><img src="img/20_people_04_WEB_768.jpg" alt="20 People and one lesbian"></div>

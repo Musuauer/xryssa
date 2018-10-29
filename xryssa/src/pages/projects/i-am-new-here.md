@@ -15,7 +15,6 @@ extra1: ""
 extra2: ""
 
 ---
-
-![I am Νew Ηere] (/img/im_new_11_WEB_2880r.jpg)
+![I am Νew Ηere](/img/im_new_11_WEB_2880r.jpg)
 
 

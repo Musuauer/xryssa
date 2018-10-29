@@ -15,9 +15,8 @@ extra1: "Director of Photography: Tasos Stamou"
 extra2: ""
 
 ---
-
-![When I Am Weak You Are Strong] (/img/when_im_weak_29_WEB_2880r.jpg)
-![When I Am Weak You Are Strong] (/img/when_im_weak_30_WEB_2880r.jpg)
-![When I Am Weak You Are Strong] (/img/when_im_weak_31_WEB_2880r.jpg)
+![When I Am Weak You Are Strong](/img/when_im_weak_29_WEB_2880r.jpg)
+![When I Am Weak You Are Strong](/img/when_im_weak_30_WEB_2880r.jpg)
+![When I Am Weak You Are Strong](/img/when_im_weak_31_WEB_2880r.jpg)
 
 

@@ -13,17 +13,15 @@ performers: "Pavel, Konstantin, Dietmar, Ahmet, Jennifer, Christine, Nadia, Mich
 documentation: "Photos: Guillermo Gudiño"
 extra1: ""
 extra2: ""
-
 ---
-
-![From My West To Reach All The Way To The East] (/img/from_my_west_01_WEB_2880r.jpg)
-![From My West To Reach All The Way To The East] (/img/from_my_west_02_WEB_2880r.jpg)
-![From My West To Reach All The Way To The East] (/img/from_my_west_03_WEB_2880r.jpg)
-![From My West To Reach All The Way To The East] (/img/from_my_west_04_WEB_2880r.jpg)
-![From My West To Reach All The Way To The East] (/img/from_my_west_05_WEB_2880r.jpg)
-![From My West To Reach All The Way To The East] (/img/from_my_west_06_WEB_2880r.jpg)
-![From My West To Reach All The Way To The East] (/img/from_my_west_07_WEB_2880r.jpg)
-![From My West To Reach All The Way To The East] (/img/from_my_west_08_WEB_2880r.jpg)
+![From My West To Reach All The Way To The East](/img/from_my_west_01_WEB_2880r.jpg)
+![From My West To Reach All The Way To The East](/img/from_my_west_02_WEB_2880r.jpg)
+![From My West To Reach All The Way To The East](/img/from_my_west_03_WEB_2880r.jpg)
+![From My West To Reach All The Way To The East](/img/from_my_west_04_WEB_2880r.jpg)
+![From My West To Reach All The Way To The East](/img/from_my_west_05_WEB_2880r.jpg)
+![From My West To Reach All The Way To The East](/img/from_my_west_06_WEB_2880r.jpg)
+![From My West To Reach All The Way To The East](/img/from_my_west_07_WEB_2880r.jpg)
+![From My West To Reach All The Way To The East](/img/from_my_west_08_WEB_2880r.jpg)
 
 <div class="extras-container">
 <p>Video monitor, Kunstverein Tiergarten, Berlin, 2012</p>
@@ -35,6 +33,6 @@ extra2: ""
 <div class="extras-container">
 <br>
 <div class="extra">
-<img src="img/from_my_west/FromMyWest-text_raum_chryssa-web.jpg" alt="exhibition text">
+<img src="img/FromMyWest-text_raum_chryssa-web.jpg" alt="exhibition text">
 </div>
 </div>

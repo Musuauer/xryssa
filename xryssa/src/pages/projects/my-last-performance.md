@@ -15,9 +15,8 @@ extra1: ""
 extra2: ""
 
 ---
-
-![My Last Performance] (/img/my_last_01_WEB_2880r.jpg)
-![My Last Performance] (/img/my_last_02_WEB_2880r.jpg)
-![My Last Performance] (/img/my_last_03_WEB_2880r.jpg)
-![My Last Performance] (/img/my_last_04_WEB_2880r.jpg)
-![My Last Performance] (/img/my_last_05_WEB_2880r.jpg)
+![My Last Performance](/img/my_last_01_WEB_2880r.jpg)
+![My Last Performance](/img/my_last_02_WEB_2880r.jpg)
+![My Last Performance](/img/my_last_03_WEB_2880r.jpg)
+![My Last Performance](/img/my_last_04_WEB_2880r.jpg)
+![My Last Performance](/img/my_last_05_WEB_2880r.jpg)

@@ -15,9 +15,8 @@ extra1: "Musical score : Zarko Jovasevic"
 extra2: ""
 
 ---
-
-![The Good Times Are Coming] (/img/the_good_times_24_WEB_2880r.jpg)
-![The Good Times Are Coming] (/img/the_good_times_25_WEB_2880r.jpg)
-![The Good Times Are Coming] (/img/the_good_times_26_WEB_2880r.jpg)
+![The Good Times Are Coming](/img/the_good_times_24_WEB_2880r.jpg)
+![The Good Times Are Coming](/img/the_good_times_25_WEB_2880r.jpg)
+![The Good Times Are Coming](/img/the_good_times_26_WEB_2880r.jpg)
 
 

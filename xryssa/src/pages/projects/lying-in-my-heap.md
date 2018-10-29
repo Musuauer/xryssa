@@ -15,13 +15,12 @@ extra1: ""
 extra2: ""
 
 ---
-
-![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things] (/img/lying_12_WEB_WEB_2880r.jpg)
-![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things] (/img/lying_13_WEB_WEB_2880r.jpg)
-![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things] (/img/lying_14_WEB_WEB_2880r.jpg)
-![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things] (/img/lying_15_WEB_WEB_2880r.jpg)
-![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things] (/img/lying_16_WEB_WEB_2880r.jpg)
-![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things] (/img/lying_17_WEB_WEB_2880r.jpg)
-![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things] (/img/lying_18_WEB_WEB_2880r.jpg)
+![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things](/img/lying_12_WEB_WEB_2880r.jpg)
+![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things](/img/lying_13_WEB_WEB_2880r.jpg)
+![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things](/img/lying_14_WEB_WEB_2880r.jpg)
+![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things](/img/lying_15_WEB_WEB_2880r.jpg)
+![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things](/img/lying_16_WEB_WEB_2880r.jpg)
+![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things](/img/lying_17_WEB_WEB_2880r.jpg)
+![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things](/img/lying_18_WEB_WEB_2880r.jpg)
 
 

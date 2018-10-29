@@ -15,6 +15,5 @@ extra1: ""
 extra2: ""
 
 ---
-
-![I Am No Longer Myself. I Am So Much Yours] (/img/i_am_no_longer_02_WEB_2880r.jpg)
+![I Am No Longer Myself. I Am So Much Yours](/img/i_am_no_longer_02_WEB_2880r.jpg)
 

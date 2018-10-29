@@ -15,14 +15,13 @@ extra1: ""
 extra2: ""
 
 ---
-
-![I Got A Plan To Get Us Out Of Here] (/img/i_got_a_plan_04_WEB_2880r.jpg)
-![I Got A Plan To Get Us Out Of Here] (/img/i_got_a_plan_05_WEB_2880r.jpg)
-![I Got A Plan To Get Us Out Of Here] (/img/i_got_a_plan_06_WEB_2880r.jpg)
-![I Got A Plan To Get Us Out Of Here] (/img/i_got_a_plan_07_WEB_2880r.jpg)
-![I Got A Plan To Get Us Out Of Here] (/img/i_got_a_plan_08_WEB_2880r.jpg)
+![I Got A Plan To Get Us Out Of Here](/img/i_got_a_plan_04_WEB_2880r.jpg)
+![I Got A Plan To Get Us Out Of Here](/img/i_got_a_plan_05_WEB_2880r.jpg)
+![I Got A Plan To Get Us Out Of Here](/img/i_got_a_plan_06_WEB_2880r.jpg)
+![I Got A Plan To Get Us Out Of Here](/img/i_got_a_plan_07_WEB_2880r.jpg)
+![I Got A Plan To Get Us Out Of Here](/img/i_got_a_plan_08_WEB_2880r.jpg)
 
 <figure class="photo">
-<img src="img/i_got_a_plan/map_chryssa.jpg" alt="map">
+<img src="img/map_chryssa.jpg" alt="map">
 </figure>
 

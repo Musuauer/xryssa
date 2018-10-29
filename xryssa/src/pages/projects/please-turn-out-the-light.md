@@ -12,17 +12,16 @@ description: "The idea of this project is based on the book Kafka – Toward a M
 performers: "Pavel Fernandez, Corra Guddat, Chantal Sandjon"
 documentation: "Photos: Guillermo Gudiño"
 extra1: "Audio and composition: Milos Tadič"
-extra2: "Voice: Nikoletta Size"
+extra2: "Voice: Nikoletta Size, Melanie Schlachter"
 
 ---
-
-![Please Turn Out The Light. I Can Only Play In The Dark] (/img/please_turn_out_02_WEB_2880r.jpg)
-![Please Turn Out The Light. I Can Only Play In The Dark] (/img/please_turn_out_04_WEB_2880r.jpg)
-![Please Turn Out The Light. I Can Only Play In The Dark] (/img/please_turn_out_01_WEB_2880r.jpg)
-![Please Turn Out The Light. I Can Only Play In The Dark] (/img/please_turn_out_03_WEB_2880r.jpg)
-![Please Turn Out The Light. I Can Only Play In The Dark] (/img/please_turn_out_05_WEB_2880r.jpg)
-![Please Turn Out The Light. I Can Only Play In The Dark] (/img/please_turn_out_07_WEB_2880r.jpg)
-![Please Turn Out The Light. I Can Only Play In The Dark] (/img/please_turn_out_06_WEB_2880r.jpg)
+![Please Turn Out The Light. I Can Only Play In The Dark](/img/please_turn_out_02_WEB_2880r.jpg)
+![Please Turn Out The Light. I Can Only Play In The Dark](/img/please_turn_out_04_WEB_2880r.jpg)
+![Please Turn Out The Light. I Can Only Play In The Dark](/img/please_turn_out_01_WEB_2880r.jpg)
+![Please Turn Out The Light. I Can Only Play In The Dark](/img/please_turn_out_03_WEB_2880r.jpg)
+![Please Turn Out The Light. I Can Only Play In The Dark](/img/please_turn_out_05_WEB_2880r.jpg)
+![Please Turn Out The Light. I Can Only Play In The Dark](/img/please_turn_out_07_WEB_2880r.jpg)
+![Please Turn Out The Light. I Can Only Play In The Dark](/img/please_turn_out_06_WEB_2880r.jpg)
 
 <div class="extras-container">
 <p>Video loop 4:18 min.</p>
