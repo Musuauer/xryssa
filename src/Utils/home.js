@@ -29,7 +29,7 @@ export function coverImages () {
       '../../static/img/homepage/right_and_wrong_06_WEB_2880r.jpg'
     ]
   }
-  console.log('coverimages working')
+  console.log('home images', homeImages)
 
   const getAvailableImageSizes = imagesObject => Object.keys(imagesObject)
 
