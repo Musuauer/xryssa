@@ -10,7 +10,14 @@ body, html{
 }
 html,body{ margin:0; padding:0; height:100%; width:100%; }
 
-
+.cover-image{
+    height: 100vh;
+    width: 100vw;
+}
+.cover-image img{
+    height: 100%;
+    width: 100%;
+}
 h1, h2, h3, h4, p, a{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
