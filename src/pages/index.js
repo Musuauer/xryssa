@@ -11,7 +11,7 @@ export default class IndexPage extends React.Component {
 
     function applyImage () {
       console.log('image container')
-      imageContainer.style.cssText = `background: url(../../../../static/img/by_reinventing_03_WEB_2880r.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; overflow: hidden;`
+      imageContainer.style.cssText = `background: url(/img/by_reinventing_03_WEB_2880r.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; overflow: hidden;`
     }
 
     applyImage()
