@@ -2,19 +2,31 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
+export const ContactTemplate = ({
+  email,
+  content
+}) => {
+  return (
+    <div className='contact'>
+      <a href={`mailto:${email}`}>
+        <h3>{email}
+        </h3>
+      </a>
+      <div dangerouslySetInnerHTML={{__html: content}} />
+      <br /><br />
+    </div>
+  )
+}
+
 const Contact = ({ data }) => {
   const { markdownRemark: post } = data
-  console.log('data:', post)
+
   return (
     <Layout>
-      <div className='contact'>
-        <a href={`mailto:${post.frontmatter.email}`}>
-          <h3>{post.frontmatter.email}
-          </h3>
-        </a>
-        <div dangerouslySetInnerHTML={{__html: post.html}} />
-        <br /><br />
-      </div>
+      <ContactTemplate
+        content={post.html}
+        email={post.frontmatter.email}
+      />
     </Layout>
   )
 }

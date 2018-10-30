@@ -2,12 +2,22 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
+export const InfoTemplate = ({
+  content
+}) => {
+  return (
+    <div className='info' dangerouslySetInnerHTML={{__html: content}} />
+  )
+}
+
 const Info = ({ data }) => {
   const { markdownRemark: post } = data
+
   return (
     <Layout>
-      <div className='info' dangerouslySetInnerHTML={{__html: post.html}} />
-
+      <InfoTemplate
+        content={post.html}
+      />
     </Layout>
   )
 }
