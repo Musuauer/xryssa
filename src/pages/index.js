@@ -6,9 +6,6 @@ import * as thumbnails from '../Utils/thumbnails'
 // import { coverImages } from '../Utils/home'
 
 export default class IndexPage extends React.Component {
-  state ={
-    open: false
-  }
   componentDidMount () {
     // const imageContainer = document.querySelector('background')
 
@@ -87,11 +84,6 @@ export default class IndexPage extends React.Component {
 
   //   return applyImage(selectedImage)
   // }
-  handleClick () {
-    this.setState({
-      open: !this.state.open
-    })
-}
 
   render () {
     const { data } = this.props

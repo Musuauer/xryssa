@@ -86,6 +86,8 @@ hr{
     z-index: 99;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
 }
 .name{
     display: inline-block;
@@ -120,45 +122,22 @@ hr{
     margin-top: 0.9rem;
 }
 
-.menu-btn span {
-	display: block;
-	width: 1.7rem;
-	height: 1px;   /* icon height  ------*/
-	margin: 5px 0 0 0;
-	background: rgb(0,0,0);
-    z-index: 9999;
-}
-
 .menu-content{
+    width: 95%;
+    margin: 0 auto;
     margin-top: 8rem;
     position: relative;
     height: 100vh;
 }
 
 .responsive-menu{
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    margin: 0 auto;
     background-color: white;
     padding-bottom: 1rem;
-}
-
-.expand {
-	display: block !important;
-}
-
-.btn-none {
-   display: none;
-}
-.close-btn:before {
-    position: absolute;
-    display: inline-block;
-    right: 1.2rem;
-    font-family: 'Open Sans', sans-serif;
-    content: "X";
-    font-size: 1.1rem;
-    color:black;
-    font-weight: 100;
-    top: 0.6rem;
 }
 
 .de{
