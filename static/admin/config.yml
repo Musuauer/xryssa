@@ -11,36 +11,42 @@ collections:
     folder: "src/pages/projects"
     create: true
     fields:
-       - {label: "Language", name: "language", widget: "hidden", default: "en"}
+       - {label: "Language", name: "language", widget: "string", default: "en"}
        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
        - {label: "Path", name: "path", widget: "string"}
+       - {label: "Project number", name: "order", widget: "number"}
+       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
        - {label: "Title", name: "title", widget: "string"}
-       - {label: "Description1", name: "description", widget: "text"}
-       - {label: "Description2", name: "description2", widget: "text"}
+       - {label: "Media", name: "media", widget: "string"}
+       - {label: "Year", name: "year", widget: "number"}
+       - {label: "Location", name: "location", widget: "string"}
+       - {label: "Duration", name: "duration", widget: "string"}
+       - {label: "Description", name: "description", widget: "text"}
+       - {label: "Performers", name: "performers", widget: "text"}
+       - {label: "Documentation", name: "documentation", widget: "string"}
+       - {label: "Extra credits 1", name: "Extra1", widget: "string"}
+       - {label: "Extra credits 2", name: "Extra2", widget: "string"}
        - {label: "Body", name: "body", widget: "markdown"}
-       - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
+      - file: "src/pages/Info/Info.md"
+        label: "Info"
+        name: "info"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
+          - {label: "Language", name: "language", widget: "string", default: "en"}
+          - {label: "Path", name: "path", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
+      - file: "src/pages/Contact/Contact.md"
+        label: "Contact"
+        name: "Contact"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
+          - {label: "Language", name: "language", widget: "string", default: "en"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "E-mail", name: "email", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
