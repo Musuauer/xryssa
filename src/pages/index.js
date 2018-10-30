@@ -3,9 +3,11 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import * as thumbnails from '../Utils/thumbnails'
+import { coverImages } from '../Utils/home'
 
 export default class IndexPage extends React.Component {
   componentDidMount () {
+    coverImages()
     thumbnails.addScrollListener()
   }
 
