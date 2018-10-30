@@ -14,19 +14,19 @@ My work is based on speech performances and testimonial actions. It promotes the
     <hr />
 
 <p>
-<a href='../pdf/Tsampazi_CV_en.pdf' target='_blank' class='textOverlay'>CV</a>
+<a href='../../pdf/Tsampazi_CV_en.pdf' target='_blank' class='textOverlay'>CV</a>
 </p>
 
 <hr />
 
 <p>
-<a href='../pdf/Tsampazi_text_en.pdf' target='_blank' class='textOverlay'>Texts</a>
+<a href='../../pdf/Tsampazi_text_en.pdf' target='_blank' class='textOverlay'>Texts</a>
 </p>
 
 <hr />
 
 <p>
-<a href='Tsampazi_text_en.pdf' target='_blank' class='textOverlay'>Portfolio</a>
+<a href='../../pdf/Tsampazi_english_portfolio_9Mb.pdf' target='_blank' class='textOverlay'>Portfolio (9 Mb)</a>
 </p>
 
 <hr />
