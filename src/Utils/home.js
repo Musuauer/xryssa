@@ -58,5 +58,5 @@ export function coverImages () {
     imageContainer.style.cssText = `background: url(.${selectedImage}) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; overflow: hidden;`
   }
 
-  applyImage(selectedImage)
+  return applyImage(selectedImage)
 }
