@@ -33,7 +33,7 @@ collections:
     files:
       - file: "src/pages/Info/Info.md"
         label: "Info"
-        name: "info"
+        name: "Info"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
           - {label: "Language", name: "language", widget: "string", default: "en"}
