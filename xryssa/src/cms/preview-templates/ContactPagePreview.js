@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Contact } from '../../templates/contact-page'
-imp
+import Contact from '../../templates/contact-page'
 
 const ContactPagePreview = ({ entry, widgetFor }) => (
   <Contact

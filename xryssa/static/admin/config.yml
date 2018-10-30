@@ -12,13 +12,13 @@ collections:
     create: true
     fields:
        - {label: "Language", name: "language", widget: "hidden", default: "en"}
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
-      - {label: "Path", name: "path", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description1", name: "description", widget: "text"}
-      - {label: "Description2", name: "description2", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
+       - {label: "Path", name: "path", widget: "string"}
+       - {label: "Title", name: "title", widget: "string"}
+       - {label: "Description1", name: "description", widget: "text"}
+       - {label: "Description2", name: "description2", widget: "text"}
+       - {label: "Body", name: "body", widget: "markdown"}
+       - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "pages"
     label: "Pages"
