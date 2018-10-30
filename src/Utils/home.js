@@ -44,6 +44,7 @@ export function coverImages () {
   const pickARamdomImage = images => images[Math.floor(Math.random() * images.length)]
 
   const getRandomBestResImage = images => {
+    console.log('uno')
     const availableSizes = getAvailableImageSizes(images)
     const screenWidth = window.innerWidth
     const bestSize = getBestSizeToUse(availableSizes, screenWidth)
@@ -55,6 +56,8 @@ export function coverImages () {
   const imageContainer = document.getElementById('background')
 
   function applyImage (selectedImage) {
+    console.log('dos')
+
     imageContainer.style.cssText = `background: url(.${selectedImage}) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; overflow: hidden;`
   }
 
