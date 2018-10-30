@@ -66,7 +66,7 @@ export default class IndexPage extends React.Component {
     }
 
     const selectedImage = getRandomBestResImage(homeImages)
-    const imageContainer = document.getElementById('background')
+    const imageContainer = document.querySelector('body')
 
     function applyImage (selectedImage) {
       console.log('dos')
