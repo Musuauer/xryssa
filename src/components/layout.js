@@ -5,7 +5,7 @@ import Sidebar from '../components/Sidebar'
 
 import { StaticQuery, graphql } from 'gatsby'
 
-import Header from './Header'
+import Header from './header'
 import '../pages/style.css'
 
 const Layout = ({ children }) => (
