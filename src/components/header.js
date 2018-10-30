@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import HamburgerMenu from 'react-hamburger-menu'
 
 const Header = ({ siteTitle }) => (
 
@@ -16,11 +17,17 @@ const Header = ({ siteTitle }) => (
     <div className='mobile-nav'>
 
       <div className='menu-btn' id='menu-btn'>
-        <div>
-          <span />
-          <span />
-          <span />
-        </div>
+        <HamburgerMenu
+          isOpen={this.state.open[3]}
+          menuClicked={this.handleClick.bind(this, 3)}
+          width={18}
+          height={15}
+          strokeWidth={1}
+          rotate={0}
+          color='black'
+          borderRadius={0}
+          animationDuration={0.5}
+        />
 
       </div>
 

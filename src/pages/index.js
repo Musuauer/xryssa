@@ -6,15 +6,18 @@ import * as thumbnails from '../Utils/thumbnails'
 // import { coverImages } from '../Utils/home'
 
 export default class IndexPage extends React.Component {
+  state ={
+    open: false
+  }
   componentDidMount () {
-    const imageContainer = document.querySelector('html')
+    // const imageContainer = document.querySelector('background')
 
-    function applyImage () {
-      console.log('image container')
-      imageContainer.style.cssText = `background: url(/img/by_reinventing_03_WEB_2880r.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; overflow: hidden;`
-    }
+    // function applyImage () {
+    //   console.log('image container', imageContainer)
+    //   imageContainer.style.cssText = `background: url(/img/by_reinventing_03_WEB_2880r.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; overflow: hidden;`
+    // }
 
-    applyImage()
+    // applyImage()
     // this.coverImages()
     thumbnails.addScrollListener()
   }
@@ -22,32 +25,32 @@ export default class IndexPage extends React.Component {
   // coverImages = () => {
   //   const homeImages = {
   //     640: [
-  //       '../static/img/homepage/from_my_west_03_WEB_1068.jpg',
-  //       '../static/img/homepage/i_have_never_17_WEB_1068.jpg',
-  //       '../static/img/homepage/i_cant_relax_02_WEB_1068.jpg',
-  //       '../static/img/homepage/please_turn_out_02_WEB_1068.jpg',
-  //       '../static/img/homepage/right_and_wrong_06_WEB_1068.jpg'
+  //       '/img/homepage/from_my_west_03_WEB_1068.jpg',
+  //       '/img/homepage/i_have_never_17_WEB_1068.jpg',
+  //       '/img/homepage/i_cant_relax_02_WEB_1068.jpg',
+  //       '/img/homepage/please_turn_out_02_WEB_1068.jpg',
+  //       '/img/homepage/right_and_wrong_06_WEB_1068.jpg'
   //     ],
   //     768: [
-  //       '../static/img/homepage/from_my_west_03_WEB_1472r.jpg',
-  //       '../static/img/homepage/i_have_never_17_WEB_1472r.jpg',
-  //       '../static/img/homepage/i_cant_relax_02_WEB_1472r.jpg',
-  //       '../static/img/homepage/please_turn_out_02_WEB_1472r.jpg',
-  //       '../static/img/homepage/right_and_wrong_06_WEB_1472r.jpg'
+  //       '/img/homepage/from_my_west_03_WEB_1472r.jpg',
+  //       '/img/homepage/i_have_never_17_WEB_1472r.jpg',
+  //       '/img/homepage/i_cant_relax_02_WEB_1472r.jpg',
+  //       '/img/homepage/please_turn_out_02_WEB_1472r.jpg',
+  //       '/img/homepage/right_and_wrong_06_WEB_1472r.jpg'
   //     ],
   //     1068: [
-  //       '../static/img/homepage/from_my_west_03_WEB_2136r.jpg',
-  //       '../static/img/homepage/i_have_never_17_WEB_2136r.jpg',
-  //       '../static/img/homepage/i_cant_relax_02_WEB_2136r.jpg',
-  //       '../static/img/homepage/please_turn_out_02_WEB_2136r.jpg',
-  //       '../static/img/homepage/right_and_wrong_06_WEB_2136r.jpg'
+  //       '/img/homepage/from_my_west_03_WEB_2136r.jpg',
+  //       '/img/homepage/i_have_never_17_WEB_2136r.jpg',
+  //       '/img/homepage/i_cant_relax_02_WEB_2136r.jpg',
+  //       '/img/homepage/please_turn_out_02_WEB_2136r.jpg',
+  //       '/img/homepage/right_and_wrong_06_WEB_2136r.jpg'
   //     ],
   //     1472: [
-  //       '../static/img/homepage/from_my_west_03_WEB_2880r.jpg',
-  //       '../static/img/homepage/i_have_never_17_WEB_2880r.jpg',
-  //       '../static/img/homepage/i_cant_relax_02_WEB_2880r.jpg',
-  //       '../static/img/homepage/please_turn_out_02_WEB_2880r.jpg',
-  //       '../static/img/homepage/right_and_wrong_06_WEB_2880r.jpg'
+  //       '/img/homepage/from_my_west_03_WEB_2880r.jpg',
+  //       '/img/homepage/i_have_never_17_WEB_2880r.jpg',
+  //       '/img/homepage/i_cant_relax_02_WEB_2880r.jpg',
+  //       '/img/homepage/please_turn_out_02_WEB_2880r.jpg',
+  //       '/img/homepage/right_and_wrong_06_WEB_2880r.jpg'
   //     ]
   //   }
   //   console.log('home images', homeImages)
@@ -74,7 +77,7 @@ export default class IndexPage extends React.Component {
   //   }
 
   //   const selectedImage = getRandomBestResImage(homeImages)
-  //   const imageContainer = document.querySelector('html')
+  //   const imageContainer = document.querySelector('background')
 
   //   function applyImage (selectedImage) {
   //     console.log('selected image', selectedImage)
@@ -84,33 +87,40 @@ export default class IndexPage extends React.Component {
 
   //   return applyImage(selectedImage)
   // }
+  handleClick () {
+    this.setState({
+      open: !this.state.open
+    })
+}
 
   render () {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <Layout>
-        <div className='project-list'>
-          {posts
-            .map(({ node: post }) => (
-              <div
-                className='list-item'
-                key={post.id}
-              >
+      <div className='background'>
+        <Layout>
+          <div className='project-list'>
+            {posts
+              .map(({ node: post }) => (
+                <div
+                  className='list-item'
+                  key={post.id}
+                >
 
-                <Link className='link' to={post.frontmatter.path} onMouseOver={thumbnails.toggleThumbVisibility} onMouseOut={thumbnails.toggleThumbVisibility}>
-                  {post.frontmatter.title}
-                </Link>
-                <Link to={post.frontmatter.path}>
-                  <img src={post.frontmatter.thumbnail} className='project-thumbnail' alt='thumbnail' />
-                </Link>
+                  <Link className='link' to={post.frontmatter.path} onMouseOver={thumbnails.toggleThumbVisibility} onMouseOut={thumbnails.toggleThumbVisibility}>
+                    {post.frontmatter.title}
+                  </Link>
+                  <Link to={post.frontmatter.path}>
+                    <img src={post.frontmatter.thumbnail} className='project-thumbnail' alt='thumbnail' />
+                  </Link>
 
-              </div>
-            ))}
-        </div>
+                </div>
+              ))}
+          </div>
 
-      </Layout>
+        </Layout>
+      </div>
     )
   }
 }

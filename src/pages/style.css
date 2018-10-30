@@ -3,6 +3,7 @@
 img, embed, object, video{
     max-width: 100%;         /*-to prevent overflow from its container-*/
 }
+
 body, html{
     box-sizing: border-box;
 
@@ -88,6 +89,7 @@ hr{
 }
 .name{
     display: inline-block;
+    z-index: 99;
 }
 .current {
     font-style: oblique;
@@ -229,6 +231,7 @@ hr{
     border-bottom: 1px solid black;
     line-height: 50px;
     height: 50px;
+    overflow: hidden;
    }
 
 .new-list-item{
