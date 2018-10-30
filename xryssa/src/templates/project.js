@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
@@ -16,8 +15,7 @@ export const ProjectTemplate = ({
   performers,
   documentation,
   extra1,
-  extra2,
-  helmet
+  extra2
 }) => {
   return (
     <React.Fragment>
@@ -54,8 +52,7 @@ export const ProjectTemplate = ({
 
 ProjectTemplate.propTypes = {
   description: PropTypes.string,
-  title: PropTypes.string,
-  helmet: PropTypes.instanceOf(Helmet)
+  title: PropTypes.string
 }
 
 const Project = ({ data }) => {

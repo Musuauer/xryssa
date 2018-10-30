@@ -21,8 +21,6 @@ h1{
 }
 h2{
     font-size: 1.1rem;
-    line-height: 3rem;
-
 }
 h3{
     font-size: 1.1rem;
@@ -127,8 +125,6 @@ hr{
 	margin: 5px 0 0 0;
 	background: rgb(0,0,0);
     z-index: 9999;
-
-    
 }
 
 .menu-content{
@@ -136,7 +132,7 @@ hr{
     position: relative;
     height: 100vh;
 }
- 
+
 .responsive-menu{
     display: none;
     width: 100%;
@@ -192,11 +188,10 @@ hr{
 
 .project-name, .project-info, .project-text, .project-credit{
     padding-bottom: 1rem;
-    padding-top: 1rem;
     border-bottom: 1px solid black;
 }
-.project-info{
-    padding-top: 0;
+.project-text, .project-credit{
+    padding-top: 1rem;
 }
 
 .photos-container{
@@ -321,9 +316,8 @@ hr{
     -ms-grid-row: 2/3; 
     grid-column: 2/3;
     -ms-grid-column: 2/3; 
-    margin-top: 0.8rem; 
+    margin-top: 0; 
 }
-
 
     .de{
     position: fixed;

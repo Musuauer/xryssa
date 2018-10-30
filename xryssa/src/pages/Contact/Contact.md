@@ -5,7 +5,6 @@ path: "/contact"
 title: "Contact"
 email: "info@tsampazi.com"
 ---
-
 <h3>
 Gustav-Müller-Str. 29
 <br />
