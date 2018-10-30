@@ -80,26 +80,31 @@ export default class IndexPage extends React.Component {
   render () {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+    var divStyle = {
+      background: 'url(../../static/img/homepage/i_cant_relax_02_WEB_1068.jpg)'
+    }
 
     return (
       <Layout>
-        <div className='project-list'>
-          {posts
-            .map(({ node: post }) => (
-              <div
-                className='list-item'
-                key={post.id}
-              >
+        <div style={divStyle}>
+          <div className='project-list'>
+            {posts
+              .map(({ node: post }) => (
+                <div
+                  className='list-item'
+                  key={post.id}
+                >
 
-                <Link className='link' to={post.frontmatter.path} onMouseOver={thumbnails.toggleThumbVisibility} onMouseOut={thumbnails.toggleThumbVisibility}>
-                  {post.frontmatter.title}
-                </Link>
-                <Link to={post.frontmatter.path}>
-                  <img src={post.frontmatter.thumbnail} className='project-thumbnail' alt='thumbnail' />
-                </Link>
+                  <Link className='link' to={post.frontmatter.path} onMouseOver={thumbnails.toggleThumbVisibility} onMouseOut={thumbnails.toggleThumbVisibility}>
+                    {post.frontmatter.title}
+                  </Link>
+                  <Link to={post.frontmatter.path}>
+                    <img src={post.frontmatter.thumbnail} className='project-thumbnail' alt='thumbnail' />
+                  </Link>
 
-              </div>
-            ))}
+                </div>
+              ))}
+          </div>
         </div>
 
       </Layout>
