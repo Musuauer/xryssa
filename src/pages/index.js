@@ -1,9 +1,7 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-import Layout from '../components/layout'
+import ProjectsList from './projectslist'
 import * as thumbnails from '../Utils/thumbnails'
-import { coverImages } from '../Utils/coverImages'
+import { coverImages } from '../constants/coverImages'
 import styled from 'styled-components'
 
 const CoverImage = styled.div`
@@ -54,9 +52,6 @@ export default class IndexPage extends React.Component {
  }
 
  render () {
-   const { data } = this.props
-   const { edges: posts } = data.allMarkdownRemark
-
    return (
      <React.Fragment>
        {this.state.showImage ? (
@@ -67,62 +62,10 @@ export default class IndexPage extends React.Component {
          />
        )
          : (
-           (
-             <Layout>
-               <div className='project-list'>
-                 {posts
-                   .map(({ node: post }) => (
-                     <div
-                       className='list-item'
-                       key={post.id}
-                     >
-
-                       <Link className='link' to={post.frontmatter.path} onMouseOver={thumbnails.toggleThumbVisibility} onMouseOut={thumbnails.toggleThumbVisibility}>
-                         {post.frontmatter.title}
-                       </Link>
-                       <Link to={post.frontmatter.path}>
-                         <img src={post.frontmatter.thumbnail} className='project-thumbnail' alt='thumbnail' />
-                       </Link>
-
-                     </div>
-                   ))}
-               </div>
-
-             </Layout>
-           )
+           <ProjectsList />
          )
        }
-
      </React.Fragment>
    )
  }
 }
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
-}
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___order] },
-      filter: { frontmatter: { templateKey: { eq: "project" } }}
-    ) {
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            path
-            templateKey
-            thumbnail
-          }
-        }
-      }
-    }
-  }
-`

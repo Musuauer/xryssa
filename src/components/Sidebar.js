@@ -8,7 +8,7 @@ const Sidebar = () => {
       >
         <h2>
           <Link
-            to='/'
+            to='/projectslist'
             activeClassName='current'
           >
             Projects

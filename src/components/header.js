@@ -48,7 +48,7 @@ export default class IndexPage extends React.Component {
                 <div className='menu-item'>
                   <h2>
                     <Link
-                      to='/'
+                      to='/projectslist'
                     >
           Projects
                     </Link>
