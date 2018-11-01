@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/20-People-And-One-Lesbian"
+path: "/de/20-People-And-One-Lesbian"
 order: "02"
 thumbnail: "/img/20_people_02_WEB_640.jpg"
 title: "20 People And One Lesbian"

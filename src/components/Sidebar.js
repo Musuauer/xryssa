@@ -1,17 +1,18 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Sidebar = () => {
+const Sidebar = ({ german, changeLanguage }) => {
+  console.log('chan func', changeLanguage)
   return (
     <div className='menu menu-project'>
       <div className='menu-item'
       >
         <h2>
           <Link
-            to='/projectslist'
+            to={!german ? '/projectslist' : '/de/projectslist'}
             activeClassName='current'
           >
-            Projects
+            {!german ? 'Projects' : 'Projekte' }
           </Link>
         </h2>
       </div>
@@ -20,7 +21,7 @@ const Sidebar = () => {
       >
         <h2>
           <Link
-            to='/info'
+            to={!german ? '/info' : '/de/info'}
             activeClassName='current'
           >
             Info
@@ -32,27 +33,25 @@ const Sidebar = () => {
       >
         <h2>
           <Link
-            to='/contact'
+            to={!german ? '/contact' : '/de/kontakt'}
             activeClassName='current'
           >
-            Contact
+            {!german ? 'Contact' : 'Kontakt' }
           </Link>
         </h2>
       </div>
 
-      <div className='de'>
-
-        <h4>
-          <Link
-            to='/de'
-          >
-         de
-          </Link>
-        </h4>
+      <div className='de'
+        onClick={changeLanguage}>
+        <div className='menu-item'
+        >
+          <h2>
+            {!german ? 'de' : 'en'}
+          </h2>
+        </div>
       </div>
 
     </div>
-
   )
 }
 

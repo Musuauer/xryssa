@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/The-Good-Times-Are-Coming"
+path: "/de/The-Good-Times-Are-Coming"
 order: "04"
 thumbnail: "/img/the_good_times_24_WEB_640.jpg"
 title: "The Good Times Are Coming"

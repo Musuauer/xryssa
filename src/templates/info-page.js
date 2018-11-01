@@ -12,9 +12,14 @@ export const InfoTemplate = ({
 
 const Info = ({ data }) => {
   const { markdownRemark: post } = data
+  let german = false
+  if (post.frontmatter.language === 'de') {
+    german = true
+  }
 
   return (
-    <Layout>
+    <Layout
+      german={german}>
       <InfoTemplate
         content={post.html}
       />
@@ -25,11 +30,12 @@ const Info = ({ data }) => {
 export default Info
 
 export const infoPageQuery = graphql`
-  query InfoQuery {
-    markdownRemark(frontmatter: {title: { eq: "Info" }}){
+  query InfoQuery($path: String!){
+    markdownRemark(frontmatter: { path: { eq: $path }}) {
       html
       frontmatter{
         title
+        language
       }
     }
   }

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import ProjectsList from './projectslist'
 import * as thumbnails from '../Utils/thumbnails'
 import { coverImages } from '../constants/coverImages'
@@ -11,7 +12,8 @@ export default class IndexPage extends React.Component {
   state= {
     showImage: true,
     coverImages: [],
-    randomImage: ''
+    randomImage: '',
+    german: false
   }
 
   componentDidMount () {
@@ -51,6 +53,13 @@ export default class IndexPage extends React.Component {
    })
  }
 
+ changeLanguage = () => {
+   console.log('changelanguagecalled')
+   this.setState({
+     german: !this.state.german
+   })
+ }
+
  render () {
    return (
      <React.Fragment>
@@ -62,10 +71,39 @@ export default class IndexPage extends React.Component {
          />
        )
          : (
-           <ProjectsList />
+           <ProjectsList
+            //  data={this.props.data.allMarkdownRemark.edges}
+             german={this.state.german}
+             changeLanguage={this.changeLanguage}
+           />
+
          )
        }
      </React.Fragment>
    )
  }
 }
+
+// export const ProjectsQuery = graphql`
+// query allProjectsQuery {
+// allMarkdownRemark(
+//   sort: { order: DESC, fields: [frontmatter___order] },
+//   filter: { frontmatter: {
+//     templateKey: { eq: "project" },
+//     language: { eq: "en" }
+//   }}
+// ) {
+//   edges {
+//     node {
+//       id
+//       frontmatter {
+//         title
+//         path
+//         templateKey
+//         thumbnail
+//       }
+//     }
+//   }
+// }
+// }
+// `

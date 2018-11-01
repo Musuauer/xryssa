@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/Right-And-Wrong-Dreams"
+path: "/de/Right-And-Wrong-Dreams"
 order: "08"
 thumbnail: "/img/right_and_wrong_06_WEB_640.jpg"
 title: "Right And Wrong Dreams"

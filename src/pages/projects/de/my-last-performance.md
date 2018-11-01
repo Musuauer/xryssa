@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/My-Last-Performance"
+path: "/de/My-Last-Performance"
 order: "12"
 thumbnail: "/img/my_last_04_WEB_640.jpg"
 title: "My Last Performance"

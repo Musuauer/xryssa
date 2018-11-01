@@ -8,7 +8,8 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import '../pages/style.css'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, german, changeLanguage }) => (
+
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -20,6 +21,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
+
       <div className='grid'>
         <Helmet
           title={data.site.siteMetadata.title}
@@ -31,7 +33,10 @@ const Layout = ({ children }) => (
           <html lang='en' />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Sidebar />
+        <Sidebar
+          german={german}
+          changeLanguage={changeLanguage}
+        />
         {children}
       </div>
 

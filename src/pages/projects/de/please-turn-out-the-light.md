@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/Please-Turn-Out-The-Light.-I-Can-Only-Play-In-The-Dark"
+path: "/de/Please-Turn-Out-The-Light-I-Can-Only-Play-In-The-Dark"
 order: "14"
 thumbnail: "/img/please_turn_out_02_WEB_640.jpg"
 title: "Please Turn Out The Light. I Can Only Play In The Dark"

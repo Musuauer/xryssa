@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/By-Reinventing-Only"
+path: "/de/By-Reinventing-Only"
 order: "08"
 thumbnail: "/img/by_reinventing_03_WEB_640.jpg"
 title: "By Reinventing Only"

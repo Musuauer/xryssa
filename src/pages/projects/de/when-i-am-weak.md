@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/When-I-Am-Weak-You-Are-Strong"
+path: "/de/When-I-Am-Weak-You-Are-Strong"
 order: "03"
 thumbnail: "/img/when_im_weak_29_WEB_640.jpg"
 title: "When I Am Weak You Are Strong"

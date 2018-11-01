@@ -80,7 +80,7 @@ export default class IndexPage extends React.Component {
 
                   <h4>
                     <Link
-                      to='/de'
+                      to='/de-projectslist'
                     >
           de
                     </Link>

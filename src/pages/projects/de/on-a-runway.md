@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/On-A-Runway"
+path: "/de/On-A-Runway"
 order: "01"
 thumbnail: "/img/on_a_runway_21_WEB_640.jpg"
 title: "On A Runway"

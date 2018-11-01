@@ -20,9 +20,14 @@ export const ContactTemplate = ({
 
 const Contact = ({ data }) => {
   const { markdownRemark: post } = data
+  let german = false
+  if (post.frontmatter.language === 'de') {
+    german = true
+  }
 
   return (
-    <Layout>
+    <Layout
+      german={german}>
       <ContactTemplate
         content={post.html}
         email={post.frontmatter.email}
@@ -34,10 +39,11 @@ const Contact = ({ data }) => {
 export default Contact
 
 export const aboutPageQuery = graphql`
-  query AboutPage {
-    markdownRemark(frontmatter: {title: { eq: "Contact" }}){
+query aboutQuery($path: String!){
+  markdownRemark(frontmatter: { path: { eq: $path }}) {
       html
       frontmatter{
+        language
         email
       }
     }

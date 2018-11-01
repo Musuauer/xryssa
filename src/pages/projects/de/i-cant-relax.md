@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/I-Cant-Relax-In-Deutschland"
+path: "/de/I-Cant-Relax-In-Deutschland"
 order: "11"
 thumbnail: "/img/i_cant_relax_02_WEB_640.jpg"
 title: "I Can’t Relax In Deutschland"

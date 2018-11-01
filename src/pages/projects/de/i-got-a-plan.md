@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/I-Got-A-Plan-To-Get-Us-Out-Of-Here"
+path: "/de/I-Got-A-Plan-To-Get-Us-Out-Of-Here"
 order: "06"
 thumbnail: "/img/my_last_04_WEB_640.jpg"
 title: "I Got A Plan To Get Us Out Of Here"

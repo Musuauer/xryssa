@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/From-My-West-To-Reach-All-The-Way-To-The-East"
+path: "/de/From-My-West-To-Reach-All-The-Way-To-The-East"
 order: "10"
 thumbnail: "/img/from_my_west_03_WEB_640.jpg"
 title: "From My West To Reach All The Way To The East"

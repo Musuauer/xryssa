@@ -58,9 +58,15 @@ ProjectTemplate.propTypes = {
 const Project = ({ data }) => {
   const { markdownRemark: post } = data
   console.log('DATA:', data)
+  let german = false
+  if (post.frontmatter.language === 'de') {
+    german = true
+  }
 
   return (
-    <Layout>
+    <Layout
+      german={german}>
+
       <ProjectTemplate
         images={post.html}
         title={post.frontmatter.title}
@@ -92,6 +98,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path }}) {
       html
       frontmatter {
+        language
         title
         path
         media
