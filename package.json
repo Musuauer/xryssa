@@ -10,7 +10,7 @@
     "gatsby-plugin-netlify-cms": "^3.0.5",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-sharp": "^2.0.7",
+    "gatsby-plugin-sharp": "^2.0.11",
     "gatsby-source-filesystem": "^2.0.4",
     "gatsby-transformer-json": "^2.1.5",
     "gatsby-transformer-remark": "^2.1.9",
