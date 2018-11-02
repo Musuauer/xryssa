@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/de/I-am-New-Here"
+path: "/de/I-am-Νew-Ηere"
 order: "07"
 thumbnail: "/img/im_new_11_WEB_640.jpg"
 title: "I am Νew Ηere"
