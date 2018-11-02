@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
-import Layout from '../components/layout'
+import ConnectedLayout from '../components/layout'
 import * as thumbnails from '../Utils/thumbnails'
+import { connect } from 'react-redux'
 
-const Projectslist = ( props ) => (
+const Projectslist = (props) => (
   <StaticQuery
     query={
       graphql`
@@ -29,10 +30,8 @@ const Projectslist = ( props ) => (
 `
     }
     render={data => (
-      <Layout
-        german={props.german}
-        changeLanguage={props.changeLanguage}>
-
+      <ConnectedLayout>
+        {console.log('projectslistprops:', props)}
         <div className='project-list'>
           {data.allMarkdownRemark.edges
             .map(({ node: post }) => (
@@ -56,9 +55,11 @@ const Projectslist = ( props ) => (
               </div>
             ))}
         </div>
-      </Layout>
+      </ConnectedLayout>
     )}
   />
 )
 
-export default Projectslist
+export default connect((state) => ({
+  german: state.german
+}))(Projectslist)

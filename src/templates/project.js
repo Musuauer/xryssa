@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
+import ConnectedLayout from '../components/layout'
+import { connect } from 'react-redux'
 
 export const ProjectTemplate = ({
   images,
@@ -55,17 +56,13 @@ ProjectTemplate.propTypes = {
   title: PropTypes.string
 }
 
-const Project = ({ data }) => {
+const Project = ({ data, props }) => {
   const { markdownRemark: post } = data
   console.log('DATA:', data)
-  let german = false
-  if (post.frontmatter.language === 'de') {
-    german = true
-  }
+  console.log('propsProject:', props)
 
   return (
-    <Layout
-      german={german}>
+    <ConnectedLayout>
 
       <ProjectTemplate
         images={post.html}
@@ -81,7 +78,7 @@ const Project = ({ data }) => {
         extra1={post.frontmatter.extra1}
         extra2={post.frontmatter.extra2}
       />
-    </Layout>
+    </ConnectedLayout>
   )
 }
 
@@ -91,7 +88,9 @@ Project.propTypes = {
   })
 }
 
-export default Project
+export default connect((state) => ({
+  german: state.german
+}))(Project)
 
 export const pageQuery = graphql`
   query ProjectEnglish($path: String!){

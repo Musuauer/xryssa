@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
+import ConnectedLayout from '../components/layout'
 
 export const ContactTemplate = ({
   email,
@@ -18,21 +18,16 @@ export const ContactTemplate = ({
   )
 }
 
-const Contact = ({ data }) => {
+const Contact = ({ data, props }) => {
   const { markdownRemark: post } = data
-  let german = false
-  if (post.frontmatter.language === 'de') {
-    german = true
-  }
 
   return (
-    <Layout
-      german={german}>
+    <ConnectedLayout>
       <ContactTemplate
         content={post.html}
         email={post.frontmatter.email}
       />
-    </Layout>
+    </ConnectedLayout>
   )
 }
 

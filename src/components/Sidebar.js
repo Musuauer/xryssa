@@ -1,58 +1,61 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
-const Sidebar = ({ german, changeLanguage }) => {
-  console.log('chan func', changeLanguage)
-  return (
-    <div className='menu menu-project'>
-      <div className='menu-item'
-      >
-        <h2>
-          <Link
-            to={!german ? '/projectslist' : '/de/projectslist'}
-            activeClassName='current'
-          >
-            {!german ? 'Projects' : 'Projekte' }
-          </Link>
-        </h2>
-      </div>
+class Sidebar extends Component {
+  render () {
+    console.log('props sidebar:', this.props)
 
-      <div className='menu-item'
-      >
-        <h2>
-          <Link
-            to={!german ? '/info' : '/de/info'}
-            activeClassName='current'
-          >
-            Info
-          </Link>
-        </h2>
-      </div>
-
-      <div className='menu-item'
-      >
-        <h2>
-          <Link
-            to={!german ? '/contact' : '/de/kontakt'}
-            activeClassName='current'
-          >
-            {!german ? 'Contact' : 'Kontakt' }
-          </Link>
-        </h2>
-      </div>
-
-      <div className='de'
-        onClick={changeLanguage}>
+    return (
+      <div className='menu menu-project'>
         <div className='menu-item'
         >
           <h2>
-            {!german ? 'de' : 'en'}
+            <Link
+              to={!this.props.german ? '/projectslist' : '/de/projectslist'}
+              activeClassName='current'
+            >
+              {!this.props.german ? 'Projects' : 'Projekte' }
+            </Link>
           </h2>
         </div>
-      </div>
 
-    </div>
-  )
+        <div className='menu-item'
+        >
+          <h2>
+            <Link
+              to={!this.props.german ? '/info' : '/de/info'}
+              activeClassName='current'
+            >
+              Info
+            </Link>
+          </h2>
+        </div>
+
+        <div className='menu-item'
+        >
+          <h2>
+            <Link
+              to={!this.props.german ? '/contact' : '/de/kontakt'}
+              activeClassName='current'
+            >
+              {!this.props.german ? 'Contact' : 'Kontakt' }
+            </Link>
+          </h2>
+        </div>
+
+        <div className='de'
+          onClick={this.props.toggleLanguage}>
+          <div className='menu-item'
+          >
+            <h2 >
+              {!this.props.german ? 'de' : 'en'}
+            </h2>
+          </div>
+        </div>
+
+      </div>
+    )
+  }
 }
 
 export default Sidebar

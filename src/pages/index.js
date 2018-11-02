@@ -1,5 +1,4 @@
 import React from 'react'
-
 import ProjectsList from './projectslist'
 import * as thumbnails from '../Utils/thumbnails'
 import { coverImages } from '../constants/coverImages'
@@ -12,8 +11,7 @@ export default class IndexPage extends React.Component {
   state= {
     showImage: true,
     coverImages: [],
-    randomImage: '',
-    german: false
+    randomImage: ''
   }
 
   componentDidMount () {
@@ -71,11 +69,7 @@ export default class IndexPage extends React.Component {
          />
        )
          : (
-           <ProjectsList
-            //  data={this.props.data.allMarkdownRemark.edges}
-             german={this.state.german}
-             changeLanguage={this.changeLanguage}
-           />
+           <ProjectsList />
 
          )
        }
@@ -83,27 +77,3 @@ export default class IndexPage extends React.Component {
    )
  }
 }
-
-// export const ProjectsQuery = graphql`
-// query allProjectsQuery {
-// allMarkdownRemark(
-//   sort: { order: DESC, fields: [frontmatter___order] },
-//   filter: { frontmatter: {
-//     templateKey: { eq: "project" },
-//     language: { eq: "en" }
-//   }}
-// ) {
-//   edges {
-//     node {
-//       id
-//       frontmatter {
-//         title
-//         path
-//         templateKey
-//         thumbnail
-//       }
-//     }
-//   }
-// }
-// }
-// `

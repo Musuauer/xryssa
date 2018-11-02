@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
+import ConnectedLayout from '../components/layout'
 
 export const InfoTemplate = ({
   content
@@ -10,20 +10,15 @@ export const InfoTemplate = ({
   )
 }
 
-const Info = ({ data }) => {
+const Info = ({ data, props }) => {
   const { markdownRemark: post } = data
-  let german = false
-  if (post.frontmatter.language === 'de') {
-    german = true
-  }
 
   return (
-    <Layout
-      german={german}>
+    <ConnectedLayout>
       <InfoTemplate
         content={post.html}
       />
-    </Layout>
+    </ConnectedLayout>
   )
 }
 

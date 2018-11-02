@@ -1,11 +1,12 @@
-// const initialState = {
-//   german: false
-// }
+import { TOGGLE_LANGUAGE } from './action'
 
-const TOGGLE_LANGUAGE = 'TOGGLE_LANGUAGE'
-export const toggleLanguage = () => ({ type: TOGGLE_LANGUAGE })
+const initialState = {
+  german: false
+}
 
-export const languagesReducer = (state = {}, action) => {
+export const languagesReducer = (state = initialState, action) => {
+  console.log('action:', action)
+  console.log('state:', state)
   const { type } = action
   switch (type) {
     case TOGGLE_LANGUAGE:
