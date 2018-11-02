@@ -2,13 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Sidebar from '../components/Sidebar'
-
 import { StaticQuery, graphql } from 'gatsby'
-
 import Header from './header'
+import { connect } from 'react-redux'
+import { toggleLanguage } from '../state/reducer'
+
 import '../pages/style.css'
 
-const Layout = ({ children, german, changeLanguage }) => (
+const Layout = ({ children, german, toggleLanguage }) => (
 
   <StaticQuery
     query={graphql`
@@ -35,7 +36,6 @@ const Layout = ({ children, german, changeLanguage }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Sidebar
           german={german}
-          changeLanguage={changeLanguage}
         />
         {children}
       </div>
@@ -48,4 +48,6 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired
 }
 
-export default Layout
+export default connect((state) => ({
+  german: state.german
+}))(Layout)
