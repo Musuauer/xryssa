@@ -9,7 +9,6 @@ function toggleLanguage () {
 }
 
 export function handleToggle () {
-  console.log('handletoggle called')
   return (dispatch) => {
     dispatch(toggleLanguage())
   }

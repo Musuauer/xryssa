@@ -5,7 +5,6 @@ const initialState = {
 }
 
 export const languagesReducer = (state = initialState, action) => {
-  console.log('action:', action)
   console.log('state:', state)
   const { type } = action
   switch (type) {

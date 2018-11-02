@@ -49,6 +49,7 @@ export default class IndexPage extends React.Component {
                   <h2>
                     <Link
                       to='/projectslist'
+                      onClick={this.handleClick}
                     >
           Projects
                     </Link>

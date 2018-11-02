@@ -10,7 +10,6 @@ import { handleToggle } from '../state/action'
 import '../pages/style.css'
 class Layout extends Component {
   toggleLanguage = () => {
-    console.log('call togglelang')
     this.props.dispatch(handleToggle())
   }
   render () {
