@@ -11,7 +11,7 @@ class Sidebar extends Component {
         >
           <h2>
             <Link
-              to={!this.props.german ? '/projectslist' : '/de/projectslist'}
+              to={'/projectslist'}
               activeClassName='current'
             >
               {!this.props.german ? 'Projects' : 'Projekte' }
@@ -47,9 +47,14 @@ class Sidebar extends Component {
           onClick={this.props.toggleLanguage}>
           <div className='menu-item'
           >
-            <h2 >
-              {!this.props.german ? 'de' : 'en'}
-            </h2>
+            <Link
+              to={'/projectslist'}
+              activeClassName='current'
+            >
+              <h2 >
+                {!this.props.german ? 'de' : 'en'}
+              </h2>
+            </Link>
           </div>
         </div>
 

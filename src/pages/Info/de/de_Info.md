@@ -22,13 +22,13 @@ Ich entleihe Begriffe und Praktiken aus dem Theater und der Konzeptkunst, um aus
 <hr />
 
 <p>
-  <a href='../pdf/Tsampazi_text_de.pdf' target='_blank' class='textOverlay'>Texte</a>
+  <a href='../pdf/Tsampazi_text_en.pdf' target='_blank' class='textOverlay'>Texte</a>
 </p>
 
 <hr />
 
 <p>
-  <a href='Tsampazi_text_de.pdf' target='_blank' class='textOverlay'>Portfolio</a>
+  <a href='../pdf/Tsampazi_english_portfolio_9Mb.pdf' target='_blank' class='textOverlay'>Portfolio</a>
 </p>
 
 <hr />

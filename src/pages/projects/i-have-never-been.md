@@ -1,7 +1,7 @@
 ---
 language: "en"
 templateKey: "project"
-path: "/I-Have Never-Been-That-Honest"
+path: "/I-Have-Never-Been-That-Honest"
 order: "15"
 thumbnail: "/img/i_have_never_17_WEB_640.jpg"
 title: "I Have Never Been That Honest"
