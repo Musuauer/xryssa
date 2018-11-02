@@ -57,7 +57,7 @@ ProjectTemplate.propTypes = {
 
 const Project = ({ data }) => {
   const { markdownRemark: post } = data
-  console.log('DATA:', data)
+  console.log('DATA:', data.markdownRemark.html)
 
   return (
     <ConnectedLayout>
