@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Sidebar from '../components/Sidebar'
 import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
-import { connect } from 'react-redux'
+import connectWithStore from '../components/connectWithStore'
 import { handleToggle } from '../state/action'
 
 import '../pages/style.css'
@@ -55,6 +55,6 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired
 }
 
-export default connect(
+export default connectWithStore(
   state => ({ german: state.german })
 )(Layout)
