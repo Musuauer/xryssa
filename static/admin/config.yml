@@ -6,8 +6,8 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "Project"
-    label: "Project"
+  - name: "Projects"
+    label: "Projects"
     folder: "src/pages/projects"
     create: true
     fields:
@@ -27,16 +27,43 @@ collections:
        - {label: "Extra credits 1", name: "Extra1", widget: "string"}
        - {label: "Extra credits 2", name: "Extra2", widget: "string"}
        - {label: "Body", name: "body", widget: "markdown"}
-
+  - name: "Projects_de"
+    label: "Projects_de"
+    folder: "src/pages/projects/de"
+    create: true
+    fields:
+       - {label: "Language", name: "language", widget: "string", default: "de"}
+       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
+       - {label: "Path", name: "path", widget: "string"}
+       - {label: "Project number", name: "order", widget: "number"}
+       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+       - {label: "Title", name: "title", widget: "string"}
+       - {label: "Media", name: "media", widget: "string"}
+       - {label: "Year", name: "year", widget: "number"}
+       - {label: "Location", name: "location", widget: "string"}
+       - {label: "Duration", name: "duration", widget: "string"}
+       - {label: "Description", name: "description", widget: "text"}
+       - {label: "Performers", name: "performers", widget: "text"}
+       - {label: "Documentation", name: "documentation", widget: "string"}
+       - {label: "Extra credits 1", name: "Extra1", widget: "string"}
+       - {label: "Extra credits 2", name: "Extra2", widget: "string"}
+       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/Info/"
+      - file: "src/pages/Info/Info.md"
         label: "Info"
         name: "Info"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-          - {label: "Language", name: "language", widget: "string", default: "en"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/Info/Info_de.md"
+        label: "Info_de"
+        name: "Info_de"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
           - {label: "Path", name: "path", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -45,7 +72,15 @@ collections:
         name: "Contact"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
-          - {label: "Language", name: "language", widget: "string", default: "en"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "E-mail", name: "email", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/Contact/Contact_de.md"
+        label: "Contact_de"
+        name: "Contact_de"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
           - {label: "Path", name: "path", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "E-mail", name: "email", widget: "string"}
