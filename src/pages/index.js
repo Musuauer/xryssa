@@ -44,7 +44,6 @@ export default class IndexPage extends React.Component {
  }
 
  removeImage = () => {
-   console.log('removeimage')
    this.setState({
      showImage: false,
      randomImage: ''
@@ -52,7 +51,6 @@ export default class IndexPage extends React.Component {
  }
 
  changeLanguage = () => {
-   console.log('changelanguagecalled')
    this.setState({
      german: !this.state.german
    })
