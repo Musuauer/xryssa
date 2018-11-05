@@ -31,7 +31,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/Info/Info.md"
+      - file: "src/pages/Info/"
         label: "Info"
         name: "Info"
         fields:
