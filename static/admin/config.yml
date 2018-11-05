@@ -59,14 +59,6 @@ collections:
           - {label: "Path", name: "path", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/Info/Info_de.md"
-        label: "Info_de"
-        name: "Info_de"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-          - {label: "Path", name: "path", widget: "string"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/Contact/Contact.md"
         label: "Contact"
         name: "Contact"
@@ -75,6 +67,17 @@ collections:
           - {label: "Path", name: "path", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "E-mail", name: "email", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages_de"
+    label: "Pages_de"
+    files:
+      - file: "src/pages/Info/Info_de.md"
+        label: "Info_de"
+        name: "Info_de"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/Contact/Contact_de.md"
         label: "Contact_de"
