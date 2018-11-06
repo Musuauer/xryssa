@@ -27,9 +27,12 @@ export function highlightImages () {
   var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
 
   const imageIndex = Math.floor(scrollBarPosition / imageHeight)
-
   const firstPosition = 40 // 40
   const scrollIncrement = 160
+
+  console.log(scrollBarPosition)
+  console.log(imageIndex)
+
 
   if (
     scrollBarPosition > firstPosition ||

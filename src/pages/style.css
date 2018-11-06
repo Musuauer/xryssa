@@ -213,7 +213,7 @@ hr{
 /* -----------PROJECTS LIST PAGE------------------------- */
 .project-list{
     margin-top: 3rem;
-    margin-bottom: 8rem;
+    margin-bottom: 30rem;
     position: relative;
     width: 100%;
 }
@@ -226,6 +226,8 @@ hr{
     line-height: 50px;
     height: 50px;
     overflow: hidden;
+    width: 99.5%;
+    margin: 0 auto;
    }
 
 .new-list-item{
@@ -233,7 +235,7 @@ hr{
     border-bottom: 1px solid black;
 }
 
-.project-thumbnail{
+.project-thumbnail {
     display: none;
     width: 100%;
 
@@ -242,6 +244,8 @@ hr{
     display: block;
     width: 100%;
     margin-bottom: 1rem;
+    transform: translateY(-2px);
+
 }
 
 /*-------------------------MEDIA QUERIES-------------------------------------*/
@@ -374,6 +378,7 @@ hr{
        -ms-grid-column: 2/3;
  
     }
+
     .list-item{
         height: 50px;
         display: -ms-grid;

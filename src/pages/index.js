@@ -1,6 +1,5 @@
 import React from 'react'
 import ProjectsList from './projectslist'
-import * as thumbnails from '../Utils/thumbnails'
 import { coverImages } from '../constants/coverImages'
 import styled from 'styled-components'
 
@@ -10,23 +9,32 @@ background: url(${props => props.randomImage}) no-repeat center center fixed; -w
 export default class IndexPage extends React.Component {
   state= {
     showImage: true,
+    showImageIndex: -1,
     coverImages: [],
-    randomImage: ''
+    randomImage: '',
+    isDesktop: window.innerWidth > 1200
   }
 
   componentDidMount () {
+    console.log('hi')
     this.setState(
       { coverImages },
       () => this.shuffleNow()
     )
 
-    thumbnails.addScrollListener()
+    if (window.innerWidth < 1200) {
+      window.addEventListener('scroll', this.highlightImages)
+    }
   }
 
   shuffleNow = () => {
     const coverImagesCopy = this.state.coverImages.slice(0)
     const shuffledImages = this.shuffle(coverImagesCopy)
     this.setState({ randomImage: shuffledImages[0] })
+  }
+
+  setShowImageIndex = newShowImageIndex => {
+    this.setState({showImageIndex: newShowImageIndex})
   }
 
  shuffle = (array) => {
@@ -56,6 +64,26 @@ export default class IndexPage extends React.Component {
    })
  }
 
+ highlightImages = () => {
+   const {showImageIndex} = this.state
+
+   const divHeight = 280
+   var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+   const increment = scrollBarPosition * (0.005)
+   const currentImageIndex = Math.floor(scrollBarPosition / (divHeight + increment))
+
+   console.log('logi scrollbarposition', scrollBarPosition)
+   console.log('logi increment', increment)
+   console.log('logi curr index', currentImageIndex)
+   console.log('logi show index', showImageIndex)
+
+   if (scrollBarPosition < 40) {
+     this.setState({showImageIndex: -1})
+   } else {
+     this.setState({showImageIndex: currentImageIndex})
+   }
+ }
+
  render () {
    return (
      <React.Fragment>
@@ -67,7 +95,9 @@ export default class IndexPage extends React.Component {
          />
        )
          : (
-           <ProjectsList />
+           <ProjectsList
+             showImageIndex={this.state.showImageIndex}
+             isDesktop={this.isDesktop} />
 
          )
        }
