@@ -213,14 +213,14 @@ hr{
 /* -----------PROJECTS LIST PAGE------------------------- */
 .project-list{
     margin-top: 3rem;
-    margin-bottom: 35rem;
+    margin-bottom: 12rem;
     position: relative;
     width: 100%;
 }
 
-.list-item{
+/* .list-item{
     height: 50px;
-}
+} */
 .link{
     border-bottom: 1px solid black;
     line-height: 50px;
@@ -246,6 +246,9 @@ hr{
     margin-bottom: 1rem;
     transform: translateY(-2px);
 
+}
+.placeholder{
+    height: 25rem;
 }
 
 /*-------------------------MEDIA QUERIES-------------------------------------*/
@@ -346,7 +349,7 @@ hr{
     -ms-grid-row: 2/3; 
     grid-column: 3/4;
     -ms-grid-column: 3/4; 
-    margin-top: -0.2rem;  
+    margin-top: -0.2rem;
 }
 
     .photos-container{
@@ -376,6 +379,7 @@ hr{
        -ms-grid-row: 2/4; 
         grid-column: 2/4;
        -ms-grid-column: 2/3;
+
  
     }
 
