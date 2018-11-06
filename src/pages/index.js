@@ -12,7 +12,7 @@ export default class IndexPage extends React.Component {
     showImageIndex: -1,
     coverImages: [],
     randomImage: '',
-    isDesktop: window.innerWidth > 1200
+    isDesktop: true
   }
 
   componentDidMount () {
@@ -23,6 +23,7 @@ export default class IndexPage extends React.Component {
     )
 
     if (window.innerWidth < 1200) {
+      this.setState({ isDesktop: false })
       window.addEventListener('scroll', this.highlightImages)
     }
   }
