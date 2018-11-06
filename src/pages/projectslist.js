@@ -1,16 +1,8 @@
 import React from 'react'
-// import styled from 'styled-components'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import ConnectedLayout from '../components/layout'
 import * as thumbnails from '../Utils/thumbnails'
 import connectWithStore from '../components/connectWithStore'
-
-// const ListItem = styled.div`
-//   display: block;
-//   ${p => p.isDesktop && css`
-//     'height: 50px; display: -ms-grid; display: grid; -ms-grid-columns: 3fr 1fr; grid-template-columns: 3fr 1fr;grid-column-gap: 1rem; position: relative;'
-//     `}
-// `
 
 const Project = ({post, german, projectIndex, showImageIndex, isDesktop}) => {
   return (

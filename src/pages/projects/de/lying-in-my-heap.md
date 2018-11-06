@@ -1,7 +1,7 @@
 ---
 language: "de"
 templateKey: "project"
-path: "/de/Lying-In-My-Heap-Of-Earth-I-Can-Naturally-Dream-Of-All-Sorts-Of-Things"
+path: "/de/Lying-In-My-Heap-Of-Earth"
 order: "13"
 thumbnail: "/img/lying_14_WEB_640.jpg"
 title: "Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things"

@@ -66,22 +66,16 @@ export default class IndexPage extends React.Component {
  }
 
  highlightImages = () => {
-   const {showImageIndex} = this.state
 
    const divHeight = 280
    var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
    const increment = scrollBarPosition * (0.005)
    const currentImageIndex = Math.floor(scrollBarPosition / (divHeight + increment))
 
-   console.log('logi scrollbarposition', scrollBarPosition)
-   console.log('logi increment', increment)
-   console.log('logi curr index', currentImageIndex)
-   console.log('logi show index', showImageIndex)
-
    if (scrollBarPosition < 40) {
-     this.setState({showImageIndex: -1})
+     this.setState({ showImageIndex: -1 })
    } else {
-     this.setState({showImageIndex: currentImageIndex})
+     this.setState({ showImageIndex: currentImageIndex })
    }
  }
 
