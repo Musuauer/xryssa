@@ -83,13 +83,11 @@ export default class IndexPage extends React.Component {
                   onClick={this.props.toggleLanguage}>
                   <div className='menu-item'
                   >
-                    <Link
-                      activeClassName='current'
-                    >
-                      <h2 >
-                        {!this.props.german ? 'de' : 'en'}
-                      </h2>
-                    </Link>
+
+                    <h2 >
+                      {!this.props.german ? 'de' : 'en'}
+                    </h2>
+
                   </div>
                 </div>
               </div>
