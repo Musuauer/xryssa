@@ -11,7 +11,7 @@ class Sidebar extends Component {
         >
           <h2>
             <Link
-              to={'/projectslist'}
+              to='/projectslist'
               activeClassName='current'
             >
               {!this.props.german ? 'Projects' : 'Projekte' }
@@ -48,7 +48,7 @@ class Sidebar extends Component {
           <div className='menu-item'
           >
             <Link
-              to={'/projectslist'}
+              to='/projectslist'
               activeClassName='current'
             >
               <h2 >

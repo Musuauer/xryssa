@@ -49,9 +49,9 @@ export default class IndexPage extends React.Component {
                   <h2>
                     <Link
                       to='/projectslist'
-                      onClick={this.handleClick}
+                      activeClassName='current'
                     >
-          Projects
+                      {!this.props.german ? 'Projects' : 'Projekte' }
                     </Link>
                   </h2>
                 </div>
@@ -59,9 +59,10 @@ export default class IndexPage extends React.Component {
                 <div className='menu-item'>
                   <h2>
                     <Link
-                      to='/info'
+                      to={!this.props.german ? '/info' : '/de/info'}
+                      activeClassName='current'
                     >
-          Info
+              Info
                     </Link>
                   </h2>
                 </div>
@@ -69,9 +70,10 @@ export default class IndexPage extends React.Component {
                 <div className='menu-item'>
                   <h2>
                     <Link
-                      to='/contact'
+                      to={!this.props.german ? '/contact' : '/de/kontakt'}
+                      activeClassName='current'
                     >
-         Contact
+                      {!this.props.german ? 'Contact' : 'Kontakt' }
                     </Link>
                   </h2>
                 </div>
@@ -82,7 +84,7 @@ export default class IndexPage extends React.Component {
                   <div className='menu-item'
                   >
                     <Link
-                      to={'/projectslist'}
+                      to='/projectslist'
                       activeClassName='current'
                     >
                       <h2 >
