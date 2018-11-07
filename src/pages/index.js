@@ -66,7 +66,6 @@ export default class IndexPage extends React.Component {
  }
 
  highlightImages = () => {
-
    const divHeight = 280
    var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
    const increment = scrollBarPosition * (0.005)
