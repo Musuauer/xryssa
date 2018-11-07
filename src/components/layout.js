@@ -37,7 +37,10 @@ class Layout extends Component {
             >
               <html lang='en' />
             </Helmet>
-            <Header siteTitle={data.site.siteMetadata.title} />
+            <Header
+              siteTitle={data.site.siteMetadata.title}
+              german={this.props.german}
+              toggleLanguage={this.toggleLanguage} />
             <Sidebar
               german={this.props.german}
               toggleLanguage={this.toggleLanguage}
