@@ -26,8 +26,8 @@ performers: >-
   Eva Kehagia, Apostolos Kitsos, Vicky Kyriakoulakou, Aristidis Kallergis,
   Christiana Ladopoulou, Stratos Menoutis, Mirto Pagkalos, Maria Chatzi
 documentation: 'Photos: Alina Lefa'
-Extra1: x
-Extra2: x
+Extra1: ''
+Extra2: ''
 ---
 ![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things](/img/lying_12_WEB_2880r.jpg)
 ![Lying In My Heap Of Earth I Can Naturally Dream Of All Sorts Of Things](/img/lying_13_WEB_2880r.jpg)
