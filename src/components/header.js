@@ -84,7 +84,6 @@ export default class IndexPage extends React.Component {
                   <div className='menu-item'
                   >
                     <Link
-                      to='/projectslist'
                       activeClassName='current'
                     >
                       <h2 >
