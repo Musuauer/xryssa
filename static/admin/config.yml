@@ -20,12 +20,12 @@ collections:
        - {label: "Media", name: "media", widget: "string"}
        - {label: "Year", name: "year", widget: "number"}
        - {label: "Location", name: "location", widget: "string"}
-       - {label: "Duration", name: "duration", widget: "string", optional: true}
+       - {label: "Duration", name: "duration", widget: "string", required: false}
        - {label: "Description", name: "description", widget: "text"}
        - {label: "Performers", name: "performers", widget: "text"}
        - {label: "Documentation", name: "documentation", widget: "string"}
-       - {label: "Extra credits 1", name: "Extra1", widget: "string", optional: true}
-       - {label: "Extra credits 2", name: "Extra2", widget: "string", optional: true}
+       - {label: "Extra credits 1", name: "Extra1", widget: "string", required: false}
+       - {label: "Extra credits 2", name: "Extra2", widget: "string", required: false}
        - {label: "Body", name: "body", widget: "markdown"}
   - name: "Projects_de"
     label: "Projects_de"
