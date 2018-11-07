@@ -20,7 +20,7 @@ collections:
        - {label: "Media", name: "media", widget: "string"}
        - {label: "Year", name: "year", widget: "number"}
        - {label: "Location", name: "location", widget: "string"}
-       - {label: "Duration", name: "duration", widget: "string"}
+       - {label: "Duration", name: "duration", widget: "string", optional: true}
        - {label: "Description", name: "description", widget: "text"}
        - {label: "Performers", name: "performers", widget: "text"}
        - {label: "Documentation", name: "documentation", widget: "string"}
