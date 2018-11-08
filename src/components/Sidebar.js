@@ -3,8 +3,6 @@ import { Link } from 'gatsby'
 
 class Sidebar extends Component {
   render () {
-    console.log('props sidebar:', this.props)
-
     return (
       <div className='menu menu-project'>
         <div className='menu-item'

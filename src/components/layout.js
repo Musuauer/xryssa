@@ -27,7 +27,6 @@ class Layout extends Component {
         render={data => (
 
           <div className='grid'>
-            {console.log('layout props:', this.props.german)}
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[

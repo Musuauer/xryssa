@@ -1,32 +1,58 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import ConnectedLayout from '../components/layout'
 import * as thumbnails from '../Utils/thumbnails'
 import connectWithStore from '../components/connectWithStore'
 
-const Project = ({post, german, projectIndex, showImageIndex, isDesktop}) => {
-  return (
-    <div
-      className='list-item'
-    >
-      <Link
-        className='link'
-        to={!german ? post.frontmatter.path : `/de${post.frontmatter.path}`}
-        onMouseOver={thumbnails.toggleThumbVisibility}
-        onMouseOut={thumbnails.toggleThumbVisibility}>
-        {post.frontmatter.title}
-      </Link>
-      <Link
-        to={!german ? post.frontmatter.path : `/de${post.frontmatter.path}`}
-        className={projectIndex <= showImageIndex && !isDesktop && 'new-list-item'}
+class Project extends Component {
+  state= {
+    linkClass: '',
+    imageClass: 'project-thumbnail'
+  }
+
+  getSnapshotBeforeUpdate (prevProps, prevState) {
+    if (prevProps.showThumbnail !== this.props.showThumbnail) {
+      return this.props.showThumbnail
+    }
+    return null
+  }
+
+  componentDidUpdate (prevProps, prevState, snapshot) {
+    if (snapshot !== null) {
+      this.setState({
+        linkClass: 'new-list-item',
+        imageClass: 'slideUp'
+      })
+    }
+  }
+
+  render () {
+    const { post, german } = this.props
+
+    return (
+      <div
+        className='list-item'
       >
-        <img
-          src={post.frontmatter.thumbnail}
-          className={projectIndex <= showImageIndex && !isDesktop ? 'slideUp' : 'project-thumbnail'} alt='thumbnail'
-        />
-      </Link>
-    </div>
-  )
+        {console.log(this.props.showThumbnail)}
+        <Link
+          className='link'
+          to={!german ? post.frontmatter.path : `/de${post.frontmatter.path}`}
+          onMouseOver={thumbnails.toggleThumbVisibility}
+          onMouseOut={thumbnails.toggleThumbVisibility}>
+          {post.frontmatter.title}
+        </Link>
+        <Link
+          to={!german ? post.frontmatter.path : `/de${post.frontmatter.path}`}
+          className={this.state.linkClass}
+        >
+          <img
+            src={post.frontmatter.thumbnail}
+            className={this.state.imageClass} alt='thumbnail'
+          />
+        </Link>
+      </div>
+    )
+  }
 }
 
 const Projectslist = (props) => (
@@ -63,9 +89,7 @@ const Projectslist = (props) => (
                 key={post.id}
                 german={props.german}
                 post={post}
-                projectIndex={i}
-                showImageIndex={props.showImageIndex}
-                isDesktop={props.isDesktop}
+                showThumbnail={i <= props.showImageIndex && !props.isDesktop}
               />
             ))}
           {!props.isDesktop &&
