@@ -38,7 +38,6 @@ export default class IndexPage extends React.Component {
               borderRadius={0}
               animationDuration={0.5}
             />
-
           </div>
 
           {this.state.open === true &&
@@ -62,7 +61,7 @@ export default class IndexPage extends React.Component {
                       to={!this.props.german ? '/info' : '/de/info'}
                       activeClassName='current'
                     >
-              Info
+                      Info
                     </Link>
                   </h2>
                 </div>
