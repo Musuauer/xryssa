@@ -49,6 +49,7 @@ export default class IndexPage extends React.Component {
                     <Link
                       to='/projectslist'
                       activeClassName='current'
+                      onClick={this.handleClick}
                     >
                       {!this.props.german ? 'Projects' : 'Projekte' }
                     </Link>
