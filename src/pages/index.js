@@ -9,33 +9,21 @@ background: url(${props => props.randomImage}) no-repeat center center fixed; -w
 export default class IndexPage extends React.Component {
   state= {
     showImage: true,
-    showImageIndex: -1,
     coverImages: [],
-    randomImage: '',
-    isDesktop: true
+    randomImage: ''
   }
 
   componentDidMount () {
-    console.log('hi')
     this.setState(
       { coverImages },
       () => this.shuffleNow()
     )
-
-    if (window.innerWidth < 1200) {
-      this.setState({ isDesktop: false })
-      window.addEventListener('scroll', this.highlightImages)
-    }
   }
 
   shuffleNow = () => {
     const coverImagesCopy = this.state.coverImages.slice(0)
     const shuffledImages = this.shuffle(coverImagesCopy)
     this.setState({ randomImage: shuffledImages[0] })
-  }
-
-  setShowImageIndex = newShowImageIndex => {
-    this.setState({showImageIndex: newShowImageIndex})
   }
 
  shuffle = (array) => {
@@ -65,19 +53,6 @@ export default class IndexPage extends React.Component {
    })
  }
 
- highlightImages = () => {
-   const divHeight = 280
-   var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
-   const increment = scrollBarPosition * (0.005)
-   const currentImageIndex = Math.floor(scrollBarPosition / (divHeight + increment))
-
-   if (scrollBarPosition < 40) {
-     this.setState({ showImageIndex: -1 })
-   } else {
-     this.setState({ showImageIndex: currentImageIndex })
-   }
- }
-
  render () {
    return (
      <React.Fragment>
@@ -89,9 +64,7 @@ export default class IndexPage extends React.Component {
          />
        )
          : (
-           <ProjectsList
-             showImageIndex={this.state.showImageIndex}
-             isDesktop={this.isDesktop} />
+           <ProjectsList />
 
          )
        }

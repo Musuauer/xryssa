@@ -6,13 +6,21 @@ import connectWithStore from '../components/connectWithStore'
 
 class Project extends Component {
   state= {
+    showImageIndex: -1,
+    showThumbnail: false,
     linkClass: '',
     imageClass: 'project-thumbnail'
   }
 
+  componentDidMount () {
+    if (window.innerWidth < 1200) {
+      window.addEventListener('scroll', this.highlightImages)
+    }
+  }
+
   getSnapshotBeforeUpdate (prevProps, prevState) {
-    if (prevProps.showThumbnail !== this.props.showThumbnail) {
-      return this.props.showThumbnail
+    if (prevState.showThumbnail !== this.state.showThumbnail) {
+      return this.state.showThumbnail
     }
     return null
   }
@@ -26,8 +34,28 @@ class Project extends Component {
     }
   }
 
+  highlightImages = () => {
+    console.log('highlihgtimages')
+    const divHeight = 280
+    var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+    const increment = scrollBarPosition * (0.005)
+    const currentImageIndex = Math.floor(scrollBarPosition / (divHeight + increment))
+
+    // if (scrollBarPosition < 40) {
+    //   this.setState({ showImageIndex: -1 })
+    // } else {
+    //   this.setState({ showImageIndex: currentImageIndex })
+    // }
+    // if (this.props.projectIndex <= this.state.showImageIndex && this.state.isDesktop){
+
+    // }
+    if (scrollBarPosition > 40 && this.props.projectIndex <= currentImageIndex) {
+      this.setState({ showThumbnail: true })
+    }
+  }
+
   render () {
-    const { post, german, isDesktop } = this.props
+    const { post, german } = this.props
 
     return (
       <div
@@ -36,8 +64,8 @@ class Project extends Component {
         <Link
           className='link'
           to={!german ? post.frontmatter.path : `/de${post.frontmatter.path}`}
-          onMouseOver={isDesktop && thumbnails.toggleThumbVisibility}
-          onMouseOut={isDesktop && thumbnails.toggleThumbVisibility}>
+          onMouseOver={thumbnails.toggleThumbVisibility}
+          onMouseOut={thumbnails.toggleThumbVisibility}>
           {post.frontmatter.title}
         </Link>
         <Link
@@ -88,8 +116,7 @@ const Projectslist = (props) => (
                 key={post.id}
                 german={props.german}
                 post={post}
-                isDesktop={props.isDesktop}
-                showThumbnail={i <= props.showImageIndex && !props.isDesktop}
+                projectIndex={i}
               />
             ))}
           {!props.isDesktop &&
