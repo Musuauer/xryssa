@@ -57,8 +57,6 @@ ProjectTemplate.propTypes = {
 
 const Project = ({ data }) => {
   const { markdownRemark: post } = data
-  console.log('DATA:', data.markdownRemark.frontmatter.path)
-
   return (
     <ConnectedLayout>
 

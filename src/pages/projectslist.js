@@ -8,12 +8,14 @@ class Project extends Component {
   state= {
     showImageIndex: -1,
     showThumbnail: false,
+    isDesktop: false,
     linkClass: '',
     imageClass: 'project-thumbnail'
   }
 
   componentDidMount () {
     if (window.innerWidth < 1200) {
+      this.setState({ isDesktop: true })
       window.addEventListener('scroll', this.highlightImages)
     }
   }
@@ -33,24 +35,26 @@ class Project extends Component {
       })
     }
   }
+  componentWillUnmount () {
+    window.removeEventListener('scroll', this.highlightImages)
+  }
 
   highlightImages = () => {
-    console.log('highlihgtimages')
     const divHeight = 280
     var scrollBarPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
     const increment = scrollBarPosition * (0.005)
     const currentImageIndex = Math.floor(scrollBarPosition / (divHeight + increment))
 
-    // if (scrollBarPosition < 40) {
-    //   this.setState({ showImageIndex: -1 })
-    // } else {
-    //   this.setState({ showImageIndex: currentImageIndex })
-    // }
-    // if (this.props.projectIndex <= this.state.showImageIndex && this.state.isDesktop){
-
-    // }
     if (scrollBarPosition > 40 && this.props.projectIndex <= currentImageIndex) {
       this.setState({ showThumbnail: true })
+      console.log('setstate showtuhbmnail')
+    }
+  }
+
+  handleHover = (e) => {
+    console.log('handlehover')
+    if (!this.state.isDesktop) {
+      thumbnails.toggleThumbVisibility(e)
     }
   }
 
@@ -64,8 +68,8 @@ class Project extends Component {
         <Link
           className='link'
           to={!german ? post.frontmatter.path : `/de${post.frontmatter.path}`}
-          onMouseOver={thumbnails.toggleThumbVisibility}
-          onMouseOut={thumbnails.toggleThumbVisibility}>
+          onMouseOver={this.handleHover}
+          onMouseOut={this.handleHover}>
           {post.frontmatter.title}
         </Link>
         <Link
