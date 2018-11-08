@@ -27,18 +27,17 @@ class Project extends Component {
   }
 
   render () {
-    const { post, german } = this.props
+    const { post, german, isDesktop } = this.props
 
     return (
       <div
         className='list-item'
       >
-        {console.log(this.props.showThumbnail)}
         <Link
           className='link'
           to={!german ? post.frontmatter.path : `/de${post.frontmatter.path}`}
-          onMouseOver={thumbnails.toggleThumbVisibility}
-          onMouseOut={thumbnails.toggleThumbVisibility}>
+          onMouseOver={isDesktop && thumbnails.toggleThumbVisibility}
+          onMouseOut={isDesktop && thumbnails.toggleThumbVisibility}>
           {post.frontmatter.title}
         </Link>
         <Link
@@ -89,6 +88,7 @@ const Projectslist = (props) => (
                 key={post.id}
                 german={props.german}
                 post={post}
+                isDesktop={props.isDesktop}
                 showThumbnail={i <= props.showImageIndex && !props.isDesktop}
               />
             ))}
