@@ -35,7 +35,6 @@ extra2: ""
 <div class="extras-container">
 <br>
 <div class="extra">
-<img src="img/from_my_west/FromMyWest-text_raum_chryssa-web.jpg" alt="exhibition text">
+<img src="../img/FromMyWest-text_raum_chryssa-web.jpg" alt="exhibition text">
 </div>
 </div>
-                                             
