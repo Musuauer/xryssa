@@ -27,7 +27,7 @@ Die Inhalte dieser Webseite wurden mit größter Sorgfalt erstellt. Für die Ric
 Haftung für Links
 </p>
 <p>
-Diese Webseite enthält Links zu externen Webseiten Dritter, auf deren Inhalte Lea Søvsø keinen Einfluss hat. Deshalb kann Chryssa Tsampazi für diese Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Bei Bekanntwerden von Rechtsverletzungen wird Lea Søvsø derartige Links umgehend entfernen.
+Diese Webseite enthält Links zu externen Webseiten Dritter, auf deren Inhalte Chryssa Tsampazi keinen Einfluss hat. Deshalb kann Chryssa Tsampazi für diese Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Bei Bekanntwerden von Rechtsverletzungen wird Chryssa Tsampazi derartige Links umgehend entfernen.
 </p><br />
 <p>
 Urheberrecht

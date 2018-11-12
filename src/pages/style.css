@@ -14,6 +14,7 @@ html,body{ margin:0; padding:0; height:100%; width:100%; }
 .cover-image{
     height: 100vh;
     width: 100vw;
+    cursor: pointer;
 }
 .cover-image img{
     height: 100%;
@@ -188,6 +189,9 @@ hr{
     border-bottom: 1px solid black;
 }
 .project-text, .project-credit{
+    margin-bottom: 1rem;
+}
+.project-text{
     padding-top: 1rem;
 }
 

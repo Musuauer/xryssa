@@ -1,14 +1,13 @@
 import React from 'react'
-import ProjectsList from './projectslist'
 import { coverImages } from '../constants/coverImages'
 import styled from 'styled-components'
+import { navigate } from 'gatsby'
 
 const CoverImage = styled.div`
 background: url(${props => props.randomImage}) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; overflow: hidden; z-index: 99999; height: 100vh;
 `
 export default class IndexPage extends React.Component {
   state= {
-    showImage: true,
     coverImages: [],
     randomImage: ''
   }
@@ -40,13 +39,6 @@ export default class IndexPage extends React.Component {
    return array
  }
 
- removeImage = () => {
-   this.setState({
-     showImage: false,
-     randomImage: ''
-   })
- }
-
  changeLanguage = () => {
    this.setState({
      german: !this.state.german
@@ -55,20 +47,13 @@ export default class IndexPage extends React.Component {
 
  render () {
    return (
-     <React.Fragment>
-       {this.state.showImage ? (
-         <CoverImage
-           className='cover-image'
-           randomImage={this.state.randomImage}
-           onClick={this.removeImage}
-         />
-       )
-         : (
-           <ProjectsList />
-
-         )
-       }
-     </React.Fragment>
+     <CoverImage
+       className='cover-image'
+       randomImage={this.state.randomImage}
+       onClick={() => navigate('/projectslist')}
+       role='link'
+       tabIndex='0'
+     />
    )
  }
 }

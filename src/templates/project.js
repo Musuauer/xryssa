@@ -37,15 +37,16 @@ export const ProjectTemplate = ({
 
         <div className='project-credit'>
           {performers && <p>Performers: {performers}</p>}
-          <p>{documentation}</p>
-          <p>{extra1}</p>
-          <p>{extra2}</p>
+          {documentation && <p>{documentation}</p>}
+          {extra1 && <p>{extra1}</p>}
+          {extra2 && <p>{extra2}</p>}
         </div>
 
       </div>
 
       <div className='photos-container'
         dangerouslySetInnerHTML={{__html: images}} />
+
     </React.Fragment>
   )
 }
