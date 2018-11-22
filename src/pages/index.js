@@ -2,6 +2,7 @@ import React from 'react'
 import { coverImages } from '../constants/coverImages'
 import styled from 'styled-components'
 import { navigate } from 'gatsby'
+import '../pages/style.css'
 
 const CoverImage = styled.div`
 background: url(${props => props.randomImage}) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; overflow: hidden; z-index: 99999; height: 100vh;
