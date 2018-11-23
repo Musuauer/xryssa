@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
 
-*{
-    margin: 0;
-    padding: 0;
-}
 img, embed, object, video{
     max-width: 100%;         /*-to prevent overflow from its container-*/
 }
@@ -13,6 +9,8 @@ body, html{
             box-sizing: border-box;
             height:100%;
             width:100%;
+            margin: 0;
+            padding: 0;
 
 }
 body{
