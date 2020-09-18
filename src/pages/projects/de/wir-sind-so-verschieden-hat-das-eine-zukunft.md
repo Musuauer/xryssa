@@ -2,7 +2,7 @@
 language: de
 templateKey: project
 path: /wir-sind-so-verschieden
-order: '17'
+order: '18'
 thumbnail: /img/chryssa_reading_482-1.jpg
 title: 'Wir sind so verschieden. Hat das eine Zukunft?  '
 media: Performance
