@@ -26,7 +26,7 @@ description: >
   wurde.
 performers: |
   Nicolaas van Diepen, Thomas Pasieka.
-documentation: Guillermo Gudiño
+documentation: 'Fotos: Guillermo Gudiño'
 Extra1: ' '
 Extra2: ' '
 ---
