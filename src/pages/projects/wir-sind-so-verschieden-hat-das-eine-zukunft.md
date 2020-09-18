@@ -22,6 +22,11 @@ Extra2: ' '
 
 ![Wir sind so verschieden. Hat das eine Zukunft?  ](/img/chryssa_reading_527-1.jpg)
 
+<div class="extras-container">
+<br>
+<div class="extra">
+ <div style="padding:56.25% 0 0 0;position:relative;">
+
 <iframe src="https://player.vimeo.com/video/459302772?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 </div>
