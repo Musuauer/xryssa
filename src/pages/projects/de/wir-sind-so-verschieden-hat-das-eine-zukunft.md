@@ -30,4 +30,8 @@ documentation: Guillermo Gudiño
 Extra1: ' '
 Extra2: ' '
 ---
-a
+![Wir sind so verschieden. Hat das eine Zukunft?](/img/chryssa_reading_482-1.jpg)
+
+![Wir sind so verschieden. Hat das eine Zukunft?](/img/chryssa_reading_499-1.jpg)
+
+![Wir sind so verschieden. Hat das eine Zukunft?](/img/chryssa_reading_527-1.jpg)
