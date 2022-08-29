@@ -27,7 +27,8 @@ description: >-
 performers: >
   Performers: Yasir El-Argane, Paolo Gallio, Stella Mohsni, Görkem Öngec, Loukas
   Sdrolias, Milo Sperk und Maya Vasila.
-documentation: Guillermo Gudiño
+documentation: >
+  Photos and video: Guillermo Gudiño
 ---
 ![null](/img/chryssa_whyhy_1141.jpg)
 
