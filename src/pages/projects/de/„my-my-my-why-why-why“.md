@@ -4,7 +4,7 @@ templateKey: project
 path: /project-name
 order: '18'
 thumbnail: /img/chryssa_whyhy_1141_low.jpg
-title: '„My, My, My. Why, Why, Why“.'
+title: 'My, My, My. Why, Why, Why.'
 media: Performance
 year: '2022'
 location: ' alpha nova & galerie futura, Berlin'
@@ -22,7 +22,9 @@ description: >-
   wandelt diesen teils ab und eröffnet einen neuen und befreienden Blick auf das
   auch hierzulande noch wirkmächtige Narrativ des Liedes, welches von
   heteronormativen Macht- und Besitzansprüchen sowie unterschwellig auch
-  misogynen Vorstellungen zeugt.
+  misogynen Vorstellungen zeugt. Es wechseln sich ruhige Szenen ab mit Szenen,
+  in denen der Text während eines körperlichen Geschehens zwischen den
+  Teilnehmenden geschrien wird.
 performers: >-
   Performers: Yasir El-Argane, Paolo Gallio, Stella Mohsni, Görkem Öngec, Loukas
   Sdrolias, Milo Sperk und Maya Vasila.
