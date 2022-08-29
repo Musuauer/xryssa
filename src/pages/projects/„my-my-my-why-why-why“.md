@@ -1,7 +1,7 @@
 ---
 language: en
 templateKey: project
-path: /project-name
+path: /my-my-my-why-why-why
 order: '19'
 thumbnail: /img/chryssa_whyhy_1141_low.jpg
 title: 'My, My, My. Why, Why, Why.'
