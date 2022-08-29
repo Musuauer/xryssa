@@ -14,6 +14,12 @@ D–10829 Berlin
 <br />
 <br /><br /><br />
 <hr />
+<p> Website <a href=mailto:info@guillermogudino.com>
+          <h3>Guillermo Gudiño
+        </h3>
+      </a>
+</p>
+<hr />
 <p>
 Impressum
 </p><br />
