@@ -4,7 +4,7 @@ templateKey: project
 path: /project-name
 order: '19'
 thumbnail: /img/chryssa_whyhy_1141_low.jpg
-title: '„My, My, My. Why, Why, Why“.'
+title: 'My, My, My. Why, Why, Why.'
 media: Performance
 year: '2022'
 location: 'alpha nova & galerie futura, Berlin'
@@ -30,12 +30,14 @@ performers: >
   Sdrolias, Milo Sperk und Maya Vasila.
 documentation: Guillermo Gudiño
 ---
-![](/img/chryssa_whyhy_1141.jpg)
+![null](/img/chryssa_whyhy_1141.jpg)
 
-![](/img/chryssa_whyhy_1816_hi.jpg)
+![null](/img/chryssa_whyhy_786.jpg)
+
+![null](/img/chryssa_whyhy_1816_hi.jpg)
+
+![null](/img/chryssa_whyhy_1795.jpg)
 
 ![](/img/chryssa_whywhy_022.jpg)
-
-![](/img/chryssa_whyhy_1795.jpg)
 
 <iframe src="https://player.vimeo.com/video/744104852?h=749304a504&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
