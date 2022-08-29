@@ -1,4 +1,3 @@
-/* global window:true */
 /* eslint no-underscore-dangle: 0 */
 
 import { createStore, applyMiddleware } from 'redux'

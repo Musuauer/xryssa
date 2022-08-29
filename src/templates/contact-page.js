@@ -1,22 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import ConnectedLayout from '../components/layout'
-
-export const ContactTemplate = ({
-  email,
-  content
-}) => {
-  return (
-    <div className='contact'>
-      <a href={`mailto:${email}`}>
-        <h3>{email}
-        </h3>
-      </a>
-      <div dangerouslySetInnerHTML={{__html: content}} />
-      <br /><br />
-    </div>
-  )
-}
+import ContactTemplate from '../components/contactTemplate'
 
 const Contact = ({ data, props }) => {
   const { markdownRemark: post } = data

@@ -45,8 +45,8 @@ collections:
        - {label: "Description", name: "description", widget: "text"}
        - {label: "Performers", name: "performers", widget: "text"}
        - {label: "Documentation", name: "documentation", widget: "string"}
-       - {label: "Extra credits 1", name: "Extra1", widget: "string"}
-       - {label: "Extra credits 2", name: "Extra2", widget: "string"}
+       - {label: "Extra credits 1", name: "Extra1", widget: "string", required: false}
+       - {label: "Extra credits 2", name: "Extra2", widget: "string", yrequired: false}
        - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"

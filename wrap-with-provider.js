@@ -15,4 +15,5 @@ const middleware = applyMiddleware(thunk)
 export const store = createStore(languagesReducer, middleware)
 
 // eslint-disable-next-line react/display-name,react/prop-types
-export default ({ element }) => <Provider store={store}>{element}</Provider>
+const prov = ({ element }) => <Provider store={store}>{element}</Provider>
+export default prov

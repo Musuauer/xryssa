@@ -1,14 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import ConnectedLayout from '../components/layout'
-
-export const InfoTemplate = ({
-  content
-}) => {
-  return (
-    <div className='info' dangerouslySetInnerHTML={{__html: content}} />
-  )
-}
+import InfoTemplate from '../components/infoTemplate'
 
 const Info = ({ data, props }) => {
   const { markdownRemark: post } = data

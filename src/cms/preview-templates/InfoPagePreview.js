@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { InfoTemplate } from '../../templates/info-page'
+import InfoTemplate from '../../components/infoTemplate'
 
 const InfoPagePreview = ({ widgetFor }) => (
   <InfoTemplate

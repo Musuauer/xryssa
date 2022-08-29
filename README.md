@@ -5,3 +5,5 @@ Developed with Gatsby, on a ReactJS base structre.
 All content is stored in Markdown files, giving access and control to the artist via the Netlify CMS.
 
 It includes a Service Worker in the production build.
+
+Path german should be like this: `path: /de/my-my-my-why-why-why`

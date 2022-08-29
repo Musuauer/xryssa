@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ProjectTemplate } from '../../templates/project'
+import ProjectTemplate from '../../components/projectTemplate'
 
 const ProjectPagePreview = ({ entry, widgetFor }) => (
   <ProjectTemplate
