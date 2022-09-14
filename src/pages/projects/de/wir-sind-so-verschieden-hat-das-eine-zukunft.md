@@ -10,20 +10,7 @@ year: '2020'
 location: 'Galerie Nord /Kunstverein Tiergarden, Berlin '
 duration: 3 Stunden
 description: >
-  Bei der Arbeit handelte es sich um eine Performance, die auf dem Text vom
-  Bernard-Marie Koltès: „In der Einsamkeit der Baumwollfelder“ basierte. Es ging
-  um einen Dialog, um einen seltsamen „Deal“ zwischen zwei Personen, dessen
-  Gegenstand umkämpft und unbenannt bleibt. Ging es um Befehle, Sehnsucht,
-  Drohungen? Ging es um das Recht, unbekannte Wünsche zu haben? In den Fokus der
-  Performance rückte der Klang der Wörter und die Stimme der Figuren löste sich
-  allmählich vom individuellen Körper. Es konnte eine Art dritter Stimme
-  entstehen, die nicht versucht, eine bestimmte Position zu beziehen. Vielmehr
-  ging es um ein Stilmittel, das über die Geschlossenheit des Dialogs
-  hinausgehen mochte.
-
-  Die Performance wurde innerhalb und außerhalb der Galerie Nord /Kunstverein
-  Tiergarden stattgefunden und war zu Ende, wenn der Dialog gemeinsam gesprochen
-  wurde.
+  Gemeinsam mit zwei Schauspielern bearbeitete ich eine Passage aus Bernard-Marie Koltès-Text "In der Einsamkeit der Baumwollfelder". Das Theaterstück handelt von einem Dialog zwischen einem Kunden und einem Drogendealer. Während des ersten Teils der Performance versuchte das Publikum, die beiden gegensätzlichen Charaktere in den Dialogen zu identifizieren, da die beiden Schauspieler ständig ihre Rollen wechselten. Im zweiten Teil der Performance begaben sich das Publikum und die Schauspieler in den Hof der Galerie, wo wir alle gleichzeitig den Text laut vorlasen. Dadurch wurde dem Publikum nun die Identifizierung der einzelnen Figuren ermöglicht. Die Performance endete nach dem gemeinsamen Lesen des Dialogs.
 performers: |
   Nicolaas van Diepen, Thomas Pasieka.
 documentation: 'Fotos und video: Guillermo Gudiño'

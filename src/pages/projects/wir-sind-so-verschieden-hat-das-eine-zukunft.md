@@ -9,7 +9,7 @@ media: Performance
 year: '2020'
 location: 'Galerie Nord /Kunstverein Tiergarden, Berlin '
 duration: 3 Hours
-description: ' '
+description: Together with two actors, I adapted a passage from Bernard-Marie Koltès' text "In the Loneliness of the Cotton Fields". The theater piece is about a dialogue between a customer and a drug dealer. During the first part of the performance, the audience tried to identify the two opposing characters in the dialogues as the two actors constantly changed roles. In the second part of the performance, the audience and the actors went to the courtyard of the gallery, where we all read the text aloud at the same time. This allowed the audience to begin to identify the individual figures. The performance ended after the dialogue was read together.
 performers: |
   Nicolaas van Diepen, Thomas Pasieka.
 documentation: 'Photos and video: Guillermo Gudiño'
