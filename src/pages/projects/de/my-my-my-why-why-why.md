@@ -26,7 +26,7 @@ description: >-
   in denen der Text während eines körperlichen Geschehens zwischen den
   Teilnehmenden geschrien wird.
 performers: >-
-  Performers: Yasir El-Argane, Paolo Gallio, Stella Mohsni, Görkem Öngec, Loukas
+  Yasir El-Argane, Paolo Gallio, Stella Mohsni, Görkem Öngec, Loukas
   Sdrolias, Milo Sperk und Maya Vasila.
 documentation: >-
   Photos and video: Guillermo Gudiño
