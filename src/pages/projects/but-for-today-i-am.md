@@ -2,7 +2,7 @@
 language: en
 templateKey: project
 path: /But-For-Today-I-Am
-order: 21
+order: "20"
 thumbnail: /img/chryssa_singing_061_web_retouched.jpg
 title: But For Today I Am
 media: Choir-performance in public space
