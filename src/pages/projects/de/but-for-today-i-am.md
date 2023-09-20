@@ -19,7 +19,7 @@ description: But For Today I Am thematisiert mit der Adaption eines Songs von
 performers: Polizeichor Berlin und den Seniorenchor Steglitz
 documentation: Guillermo Gudiño
 Extra1: "Vocal Creature Symposium "
-Extra2: .
+Extra2: ""
 ---
 ![](/img/chryssa_singing_188_web_retouched.jpg)
 
