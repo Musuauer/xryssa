@@ -16,7 +16,7 @@ description: >
   about the feelings of a boy who will be a beautiful woman when he grows up.
   The song was performed by the two groups in a public space at two locations,
   whereby the viewers were free to move between the stations.
-performers: .
+performers: Polizeichor Berlin and the Seniorenchor Steglitz
 documentation: "Photos: Guillermo Gudiño"
 Extra1: "Vocal Creature Symposium "
 ---
