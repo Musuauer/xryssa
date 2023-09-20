@@ -18,7 +18,7 @@ description: >
   whereby the viewers were free to move between the stations.
 performers: Polizeichor Berlin and the Seniorenchor Steglitz
 documentation: "Photos: Guillermo Gudiño"
-Extra1: "Vocal Creature Symposium "
+Extra1: "Vocal Creature Symposium"
 ---
 ![](/img/chryssa_singing_061_web_retouched.jpg)
 
