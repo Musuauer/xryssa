@@ -6,7 +6,7 @@ order: "20"
 thumbnail: /img/chryssa_singing_061_web_retouched.jpg
 title: But For Today I Am
 media: Choir-performance in public space
-year: 2023
+year: "2023"
 location: Galerie Nord | Kunstverein Tiergarten, Berlin
 duration: 60 min.
 description: >
