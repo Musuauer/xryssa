@@ -7,7 +7,7 @@ thumbnail: /img/chryssa_singing_061_web_retouched.jpg
 title: But For Today I Am
 media: Chor-Performance im öffentlichen Raum
 year: "2023"
-location: Galerie Nord | Kunstverein Tiergarten, Berlin
+location: Galerie Nord | Kunstverein Tiergarten, Berlin | Vocal Creature Symposium
 duration: 60 min.
 description: >
   But For Today I Am thematisiert mit der Adaption eines Songs von

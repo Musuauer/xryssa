@@ -7,7 +7,7 @@ thumbnail: /img/chryssa_singing_061_web_retouched.jpg
 title: But For Today I Am
 media: Choir-performance in public space
 year: "2023"
-location: Galerie Nord | Kunstverein Tiergarten, Berlin
+location: Galerie Nord | Kunstverein Tiergarten, Berlin | Vocal Creature Symposium
 duration: 60 min.
 description: >
   But For Today I Am thematises realities beyond social conventions with the
@@ -18,7 +18,7 @@ description: >
   whereby the viewers were free to move between the stations.
 performers: Polizeichor Berlin and the Seniorenchor Steglitz
 documentation: "Photos: Guillermo Gudiño"
-Extra1: "Vocal Creature Symposium"
+Extra1: ""
 ---
 ![](/img/chryssa_singing_061_web_retouched.jpg)
 
