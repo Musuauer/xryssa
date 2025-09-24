@@ -1,12 +1,12 @@
 ---
-language: de
-templateKey: project
-path: /de/aktion-buergerwille-neu
-order: 21
+language: "de"
+templateKey: "project"
+path: "/de/aktion-buergerwille-neu"
+order: "21"
 thumbnail: /img/aktion-buergerwille_chryssa-tsampazi_muenster_09-05-2025_te_4088-c-christoph-steinweg_thumb.jpg
 title: Aktion Bürgerwille neu
 media: Performance und Reenactment
-year: 2025
+year: "2025"
 location: Münster Schilderwechsel, 50 Jahre Gebietsreform im Münsterland
 duration: Variable
 description: "Das Projekt „Aktion Bürgerwille neu“ nimmt die gleichnamige
