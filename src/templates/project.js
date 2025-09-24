@@ -20,8 +20,8 @@ const Project = ({ data }) => {
         description={post.frontmatter.description}
         performers={post.frontmatter.performers}
         documentation={post.frontmatter.documentation}
-        extra1={post.frontmatter.extra1}
-        extra2={post.frontmatter.extra2}
+        extra1={post.frontmatter.Extra1}
+        extra2={post.frontmatter.Extra2}
       />
     </ConnectedLayout>
   )
@@ -50,8 +50,8 @@ export const pageQuery = graphql`
         description
         performers
         documentation
-        extra1
-        extra2
+        Extra1
+        Extra2
       }
     }
   }
