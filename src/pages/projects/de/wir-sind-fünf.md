@@ -1,7 +1,7 @@
 ---
-language: "de"
-templateKey: "project"
-path: "/wir-sind-funf-de"
+language: de
+templateKey: project
+path: de/wir-sind-funf
 order: "20"
 thumbnail: /img/wirsind5-546_thumb.jpg
 title: Wir Sind Fünf
