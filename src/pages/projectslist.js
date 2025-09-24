@@ -104,6 +104,7 @@ const Projectslist = (props) => (
             path
             templateKey
             thumbnail
+            order
           }
         }
       }
