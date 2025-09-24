@@ -14,11 +14,11 @@ collections:
        - {label: "Language", name: "language", widget: "string", default: "en"}
        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
        - {label: "Path", name: "path", widget: "string", default: "/project-name"}
-       - {label: "Project number", name: "order", widget: "number"}
+       - {label: "Project number", name: "order", widget: "string"}
        - {label: "Thumbnail", name: "thumbnail", widget: "image"}
        - {label: "Title", name: "title", widget: "string"}
        - {label: "Media", name: "media", widget: "string"}
-       - {label: "Year", name: "year", widget: "number"}
+       - {label: "Year", name: "year", widget: "string"}
        - {label: "Location", name: "location", widget: "string"}
        - {label: "Duration", name: "duration", widget: "string", required: false}
        - {label: "Description", name: "description", widget: "text"}
@@ -35,11 +35,11 @@ collections:
        - {label: "Language", name: "language", widget: "string", default: "de"}
        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
        - {label: "Path", name: "path", widget: "string", default: "/project-name"}
-       - {label: "Project number", name: "order", widget: "number"}
+       - {label: "Project number", name: "order", widget: "string"}
        - {label: "Thumbnail", name: "thumbnail", widget: "image"}
        - {label: "Title", name: "title", widget: "string"}
        - {label: "Media", name: "media", widget: "string"}
-       - {label: "Year", name: "year", widget: "number"}
+       - {label: "Year", name: "year", widget: "string"}
        - {label: "Location", name: "location", widget: "string"}
        - {label: "Duration", name: "duration", widget: "string"}
        - {label: "Description", name: "description", widget: "text"}

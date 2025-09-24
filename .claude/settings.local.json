@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(yarn dev)",
+      "Bash(yarn build)",
+      "Bash(yarn add react@^18 react-dom@^18)",
+      "Bash(yarn add:*)",
+      "Bash(yarn remove:*)",
+      "Bash(yarn info:*)",
+      "Bash(yarn install)",
+      "Bash(find:*)"
+    ],
+    "deny": []
+  }
+}

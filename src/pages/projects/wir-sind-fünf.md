@@ -1,12 +1,12 @@
 ---
-language: en
-templateKey: project
-path: /wir-sind-funf
-order: 21
+language: "en"
+templateKey: "project"
+path: "/wir-sind-funf"
+order: "21"
 thumbnail: /img/wirsind5-546_thumb.jpg
 title: Wir Sind Fünf
 media: Performance
-year: 2024
+year: "2024"
 location: 'Berlin "T4b00" , Bärenzwinger '
 duration: 90 min
 description: >-
