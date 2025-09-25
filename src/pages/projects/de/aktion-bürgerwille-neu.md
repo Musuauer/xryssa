@@ -1,8 +1,8 @@
 ---
-language: "de"
-templateKey: "project"
-path: "/de/aktion-buergerwille-neu"
-order: "21"
+language: de
+templateKey: project
+path: /de/aktion-buergerwille-neu
+order: "22"
 thumbnail: /img/aktion-buergerwille_chryssa-tsampazi_muenster_09-05-2025_te_4088-c-christoph-steinweg_thumb.jpg
 title: Aktion Bürgerwille neu
 media: Performance und Reenactment
