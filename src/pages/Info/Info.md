@@ -14,7 +14,7 @@ My work is based on speech performances and testimonial actions. It promotes the
     <hr />
 
 <p>
-<a href='../../pdf/Tsampazi_CV_en.pdf' target='_blank' class='textOverlay'>CV</a>
+<a href='../../pdf/tsampazi_CV_en.pdf' target='_blank' class='textOverlay'>CV</a>
 </p>
 
 <hr />

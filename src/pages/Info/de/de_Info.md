@@ -16,7 +16,7 @@ Ich entleihe Begriffe und Praktiken aus dem Theater und der Konzeptkunst, um aus
 <hr />
 
 <p>
-  <a href='../pdf/Tsampazi_CV_de.pdf' target='_blank' class='textOverlay'>CV</a>
+  <a href='../pdf/tsampazi_CV_de.pdf' target='_blank' class='textOverlay'>CV</a>
 </p>
 
 <hr />
@@ -28,7 +28,7 @@ Ich entleihe Begriffe und Praktiken aus dem Theater und der Konzeptkunst, um aus
 <hr />
 
 <p>
-  <a href='../pdf/Tsampazi_deutsch_portfolio_7Mb.pdf' target='_blank' class='textOverlay'>Portfolio</a>
+  <a href='../pdf/Tsampazi_deutsch_portfolio_2025.pdf' target='_blank' class='textOverlay'>Portfolio</a>
 </p>
 
 <hr />
